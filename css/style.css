@@ -1,0 +1,426 @@
+/* Import Mision Oro font */
+@font-face {
+    font-family: ArcaMajora;
+    src: url(../fonts/ArcaMajora3-Heavy.otf);
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .text-responsive{
+    text-align: left;
+  }
+  /* content size */
+  .video-section{
+    height: 7000px!important;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) {
+  /* content size */
+  .video-section{
+    height: 6000px;
+  }
+  /* content ubication */
+  .videos-appear2{
+    transform: translateY(90px)!important;
+  }
+  .videos-appear3{
+    transform: translateY(100px)!important;
+  }
+  .videos-appear4{
+    transform: translateY(100px)!important;
+  }
+  .videos5{
+    transform: translateY(90px)!important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .videos-appear{
+    margin-top: 45px!important;
+  }
+  /* Shirt positon by post */
+  #video1 .shirt{
+    bottom: 94%!important;
+  }
+  #video2 .shirt{
+    bottom: 95%!important;
+  }
+  #video3 .shirt{
+    bottom: 96%!important;
+  }
+  /* Road */
+  .cicla{
+    padding-right: 0%!important;
+  }
+  .road{
+    height: 2500px!important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Shirt positon by post */
+  #video1 .shirt{
+    bottom: 90%!important;
+  }
+  #video2 .shirt{
+    bottom: 92%!important;
+  }
+  #video3 .shirt{
+    bottom: 94%!important;
+  }
+  #video4 .shirt{
+    bottom: 86.5%!important;
+  }
+  /* Road */
+  .road > img{
+    right: 11%!important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Shirt positon by post */
+  #video1 .shirt{
+    bottom: 94%!important;
+  }
+  #video2 .shirt{
+    bottom: 95%!important;
+  }
+  #video3 .shirt{
+    bottom: 96%!important;
+  }
+  #video4 .shirt{
+    bottom: 89.2%!important;
+  }
+  .videos1{
+    transform: translateY(10px)!important;
+  }
+  /* Road img*/
+  .road > img{
+    right: 11%!important;
+  }
+  /* Road div */
+  .road{
+    height: 5470px!important;
+  }
+}
+/* Elements */
+body{
+  overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+a{
+  color: #de6f00;
+}
+.titulo{
+  font-family: ArcaMajora;
+  font-size: 5rem
+}
+.green-context{
+  background-color: #A7C452;
+}
+.cover-colors{
+  display: block;
+  background-color: #f1cc00cf;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn{
+  background-color: #ee9800;
+  color: white;
+}
+.btn:hover{
+  color: #646363;
+  text-decoration: underline;
+}
+.display-4 {
+    font-size: 2.8rem;
+}
+/* Navbar redes */
+.redes  a  img{
+  width: 40px;
+  height: auto;
+}
+/* Main page */
+.clouds{
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  animation: clouds 50s infinite 0s linear;
+}
+.clouds2{
+  opacity: 0.7;
+  position: absolute;
+  z-index: 0;
+  animation: clouds2 50s infinite 0s linear;
+}
+#logo{
+  max-width: 60%;
+}
+#intro-box{
+  height: 110vh;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* FAQ question */
+.ver-mas{
+  font-size: 1rem;
+  float: right;
+  padding-top: 12px;
+}
+.standar-intro{
+  line-height: 2.2em;
+}
+#pregunta1, #pregunta2, #pregunta3, #pregunta4{
+  color: #6c757d;
+}
+.panel-title a{
+  color: white;
+}
+.panel-title a small{
+  color: #f1cc00;
+  font-family: ArcaMajora;
+}
+.botonmas{
+  font-weight: 900;
+}
+.faq-question{
+  background-color: #6c757d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  border: 0.5px;
+}
+.faq-response{
+  background-color: white;
+  padding: 10px;
+  border: 0.5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* Video section */
+#video3{
+  padding-top: 4.4rem!important;
+}
+.tiras{
+  margin-right: -6%!important;
+  padding-bottom: 2%;
+}
+.shirt{
+  position: absolute;
+  z-index: 100;
+  width: 15%;
+  height: auto;
+  left: 95%;
+  bottom: 85%;
+}
+/* Shirt positon by post */
+.show-videos{
+  z-index: 2;
+}
+#video2 .shirt{
+  bottom: 88%;
+}
+#video3 .shirt{
+  bottom: 92%;
+}
+#video4 .shirt{
+  bottom: 85.2%;
+  left: 92%;
+}
+.video-content{
+  background-color: hsla(0,0%,100%,.8);
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+}
+/* Content appear because ScrollMagic applies .video-appear to default class */
+.videos1{
+  opacity: 0;
+  transform: translateY(130px);
+  transition: all 1s ease-in;
+}
+.videos-appear{
+  opacity: 1;
+  transform: translateY(0px);
+  margin-top: 100px;
+}
+.videos2{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+.videos-appear2{
+  opacity: 1;
+  transform: translateY(-20px);
+}
+.videos3{
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all 1s ease-in;
+}
+.videos-appear3{
+  opacity: 1;
+  transform: translateY(-58px);
+}
+#video4{
+  padding-top: 5rem;
+  margin-top: 100px;
+  transform: translateY(-200px);
+}
+.videos4{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+.videos-appear4{
+  opacity: 1;
+}
+.videos5{
+  opacity: 0;
+  transform: translateY(-180px);
+  transition: all 1s ease-in;
+}
+.videos-appear5{
+  opacity: 1;
+}
+.video-section .lead{
+  line-height: 0px;
+  margin-left: 1em;
+}
+
+/* Road section */
+.scrolling{
+  animation: riding 0.2s infinite 0s linear;
+}
+.cicla{
+  padding-right: 15%;
+  position: static!important;
+}
+/* Road img */
+.road > img{
+  position: absolute;
+  z-index: 0;
+  width: 80%;
+  height: auto;
+  right: 17%;
+}
+/* Road div */
+.road{
+  height: 5000px;
+}
+/* Scroll object */
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid black;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: black;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+.demo a {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: black;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+/* Scroll animation */
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Riding guy animation is below! */
+@keyframes riding{
+    0%{
+        transform: rotate(5deg);
+        }
+    25%{
+        transform: rotate(0deg);
+        }
+    50%{
+        transform: rotate(-5deg);
+        }
+    75%{
+        transform: rotate(0deg);
+        }
+    100%{
+        transform: rotate(5deg);
+        }
+}
+/* Cloud1 animation */
+@keyframes clouds{
+    0%{
+        }
+    50%{
+        transform: translateX(180px);
+        }
+    100%{
+        }
+}
+/* Cloud2 animation */
+@keyframes clouds2{
+    0%{
+        }
+    50%{
+        transform: translateX(-180px);
+        }
+    100%{
+        }
+}
