@@ -225,7 +225,10 @@ a{
 }
 #video4 .shirt{
   bottom: 85.2%;
-  left: 92%;
+  left: 94%;
+}
+#video5 .shirt{
+  bottom: 88%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
