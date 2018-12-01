@@ -141,7 +141,6 @@ a{
 }
 /* Main page */
 .clouds{
-  opacity: 0.7;
   position: absolute;
   z-index: -1;
   animation: clouds 50s infinite 0s linear;
