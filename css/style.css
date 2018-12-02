@@ -141,7 +141,6 @@ a{
 }
 /* Main page */
 .clouds{
-  opacity: 0.7;
   position: absolute;
   z-index: -1;
   animation: clouds 50s infinite 0s linear;
@@ -226,7 +225,10 @@ a{
 }
 #video4 .shirt{
   bottom: 85.2%;
-  left: 92%;
+  left: 94%;
+}
+#video5 .shirt{
+  bottom: 88%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
