@@ -302,12 +302,12 @@ a{
   position: absolute;
   z-index: 0;
   width: 80%;
-  height: auto;
+  height: 6000px;
   right: 17%;
 }
 /* Road div */
 .road{
-  height: 5000px;
+  height: 7000px;
 }
 /* Scroll object */
 #section10 a {
