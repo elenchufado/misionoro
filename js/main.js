@@ -11,7 +11,7 @@ $(document).ready(function () {
     //.addIndicators({name: "Video1"})
     .addTo(controller);
 
-  // init video2
+    // init video2
     //build
     var video2 = new ScrollMagic.Scene({
       triggerElement: ".videos2",
@@ -21,7 +21,7 @@ $(document).ready(function () {
     //.addIndicators({name: "Video2"})
     .addTo(controller);
 
-  // init video3
+    // init video3
     //build
     var video3 = new ScrollMagic.Scene({
       triggerElement: ".videos3",
@@ -37,7 +37,7 @@ $(document).ready(function () {
         triggerElement: ".videos4",
         triggerHook: 0.58
       })
-      .setClassToggle(".videos4", 'videos-appear4')//add class
+      .setClassToggle(".videos4", 'videos-appear-normalized')//add class
       //.addIndicators({name: "Video4"})
       .addTo(controller);
 
@@ -47,9 +47,19 @@ $(document).ready(function () {
           triggerElement: ".videos5",
           triggerHook: 0.58
         })
-        .setClassToggle(".videos5", 'videos-appear5')//add class
+        .setClassToggle(".videos5", 'videos-appear-normalized')//add class
         //.addIndicators({name: "Video5"})
         .addTo(controller);
+
+        // init video6
+          //build
+          var video6 = new ScrollMagic.Scene({
+            triggerElement: ".videos6",
+            triggerHook: 0.58
+          })
+          .setClassToggle(".videos6", 'videos-appear-normalized')//add class
+          //.addIndicators({name: "Video6"})
+          .addTo(controller);
 
 
     // Responsive duration bycicle
@@ -59,11 +69,11 @@ $(document).ready(function () {
       if (windowsize > 991.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"650%",
+          duration:"585%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla (duration: 400%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla (duration: 585%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
@@ -77,11 +87,11 @@ $(document).ready(function () {
       }else {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"800%",
+          duration:"700%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_md (duration: 800%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_md (duration: 700%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }
     }

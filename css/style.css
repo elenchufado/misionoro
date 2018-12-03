@@ -73,6 +73,32 @@
   .road > img{
     right: 11%!important;
   }
+  /* Content size */
+  .video-section{
+    height: 6400px!important;
+  }
+  /* Dates */
+  .dates img{
+    right: 58%!important;
+  }
+  #nov9{
+    bottom: 97%!important;
+  }
+  #nov16{
+    bottom: 84%!important;
+  }
+  #nov19{
+    bottom: 67%!important;
+  }
+  #nov26{
+    bottom: 44%!important;
+  }
+  #dic3{
+    bottom: 24.8%!important;
+  }
+  #dic10{
+    bottom: 3%!important;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Shirt positon by post */
@@ -95,9 +121,31 @@
   .road > img{
     right: 11%!important;
   }
-  /* Road div */
-  .road{
-    height: 5470px!important;
+  /* Content size */
+  .video-section{
+    height: 7200px!important;
+  }
+  /* Dates */
+  .dates img{
+    right: 58%!important;
+  }
+  #nov9{
+    bottom: 97.7%!important;
+  }
+  #nov16{
+    bottom: 84%!important;
+  }
+  #nov19{
+    bottom: 66%!important;
+  }
+  #nov26{
+    bottom: 43%!important;
+  }
+  #dic3{
+    bottom: 24.2%!important;
+  }
+  #dic10{
+    bottom: 2.7%!important;
   }
 }
 /* Elements */
@@ -197,10 +245,11 @@ a{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* Video section */
-#video3{
-  padding-top: 4.4rem!important;
+/* Road size on div */
+.video-section{
+  height: 6100px;
 }
+/* Video section */
 .tiras{
   margin-right: -6%!important;
   padding-bottom: 2%;
@@ -237,6 +286,9 @@ a{
   border-radius: 3px;
 }
 /* Content appear because ScrollMagic applies .video-appear to default class */
+.videos-appear-normalized{
+  opacity: 1!important;
+}
 .videos1{
   opacity: 0;
   transform: translateY(130px);
@@ -254,6 +306,9 @@ a{
 .videos-appear2{
   opacity: 1;
   transform: translateY(-20px);
+}
+#video3{
+  padding-top: 4.4rem!important;
 }
 .videos3{
   opacity: 0;
@@ -273,16 +328,15 @@ a{
   opacity: 0;
   transition: all 1s ease-in;
 }
-.videos-appear4{
-  opacity: 1;
-}
 .videos5{
   opacity: 0;
   transform: translateY(-180px);
   transition: all 1s ease-in;
 }
-.videos-appear5{
-  opacity: 1;
+.videos6{
+  opacity: 0;
+  transform: translateY(-120px);
+  transition: all 1s ease-in;
 }
 .video-section .lead{
   line-height: 0px;
@@ -305,9 +359,29 @@ a{
   height: auto;
   right: 17%;
 }
-/* Road div */
-.road{
-  height: 5000px;
+/* Dates on road */
+.dates img{
+  position: absolute;
+  width: 50px;
+  right: 63%;
+}
+#nov9{
+  bottom: 96.4%;
+}
+#nov16{
+  bottom: 85%;
+}
+#nov19{
+  bottom: 68%;
+}
+#nov26{
+  bottom: 46%;
+}
+#dic3{
+  bottom: 26%;
+}
+#dic10{
+  bottom: 9%;
 }
 /* Scroll object */
 #section10 a {
