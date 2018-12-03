@@ -69,6 +69,9 @@
   #video4 .shirt{
     bottom: 86.5%!important;
   }
+  #video5 .shirt{
+    bottom: 93.4%!important;
+  }
   /* Road */
   .road > img{
     right: 11%!important;
@@ -113,6 +116,9 @@
   }
   #video4 .shirt{
     bottom: 89.2%!important;
+  }
+  #video5 .shirt{
+    bottom: 95.7%!important;
   }
   .videos1{
     transform: translateY(10px)!important;
@@ -277,7 +283,7 @@ a{
   left: 94%;
 }
 #video5 .shirt{
-  bottom: 88%;
+  bottom: 92%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
