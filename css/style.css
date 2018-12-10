@@ -192,8 +192,10 @@ a{
 }
 .videos6{
   opacity: 0;
-  transform: translateY(-120px);
   transition: all 1s ease-in;
+}
+#video6{
+  transform: translateY(-120px);
 }
 .video-section .lead{
   line-height: 0px;
@@ -225,19 +227,19 @@ a{
   bottom: 96.4%;
 }
 #nov16{
-  bottom: 86%;
+  bottom: 85%;
 }
 #nov19{
-  bottom: 73%;
+  bottom: 72%;
 }
 #nov26{
-  bottom: 54%;
+  bottom: 53%;
 }
 #dic3{
-  bottom: 37%;
+  bottom: 36%;
 }
 #dic10{
-  bottom: 19%;
+  bottom: 18%;
 }
 #dic17{
   bottom: 5%
@@ -364,12 +366,20 @@ a{
 /* Responsive */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  /* Content size */
+  .video-section{
+    height: 10400px!important;
+  }
   .text-responsive{
     text-align: left;
   }
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
+  /* Content size */
+  .video-section{
+    height: 8600px;
+  }
   /* content ubication */
   .videos-appear2{
     transform: translateY(90px);
@@ -380,8 +390,20 @@ a{
   .videos-appear4{
     transform: translateY(100px);
   }
-  .videos5{
-    transform: translateY(90px);
+  .videos-appear-normalized{
+        transform: translateY(80px);
+  }
+  #video5{
+    transform: translateY(-80px);
+  }
+  #video6{
+    transform: translateY(130px);
+  }
+  #video7{
+    transform: translateY(220px);
+  }
+  #video7 .videos7{
+    transform: translateY(60px);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -423,19 +445,19 @@ a{
     bottom: 97.7%;
   }
   #nov16{
-    bottom: 86%;
+    bottom: 85%;
   }
   #nov19{
-    bottom: 71%;
+    bottom: 70%;
   }
   #nov26{
-    bottom: 51%;
+    bottom: 50%;
   }
   #dic3{
-    bottom: 35%;
+    bottom: 34%;
   }
   #dic10{
-    bottom: 16%;
+    bottom: 15%;
   }
   #dic17{
     bottom: 1%;
@@ -477,19 +499,19 @@ a{
     bottom: 96.4%;
   }
   #nov16{
-    bottom: 86%;
+    bottom: 85%;
   }
   #nov19{
-    bottom: 72%;
+    bottom: 71%;
   }
   #nov26{
-    bottom: 52%;
+    bottom: 51%;
   }
   #dic3{
-    bottom: 35%;
+    bottom: 34%;
   }
   #dic10{
-    bottom: 16%;
+    bottom: 15%;
   }
   #dic17{
     bottom: 2%
