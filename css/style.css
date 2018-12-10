@@ -3,157 +3,6 @@
     font-family: ArcaMajora;
     src: url(../fonts/ArcaMajora3-Heavy.otf);
 }
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .text-responsive{
-    text-align: left;
-  }
-  /* content size */
-  .video-section{
-    height: 7000px!important;
-  }
-}
-/* Medium devices (tablets, 768px and up)*/
-@media (max-width: 767.98px) {
-  /* content size */
-  .video-section{
-    height: 6000px;
-  }
-  /* content ubication */
-  .videos-appear2{
-    transform: translateY(90px)!important;
-  }
-  .videos-appear3{
-    transform: translateY(100px)!important;
-  }
-  .videos-appear4{
-    transform: translateY(100px)!important;
-  }
-  .videos5{
-    transform: translateY(90px)!important;
-  }
-}
-@media (max-width: 1199.98px) {
-  .videos-appear{
-    margin-top: 45px!important;
-  }
-  /* Shirt positon by post */
-  #video1 .shirt{
-    bottom: 94%!important;
-  }
-  #video2 .shirt{
-    bottom: 95%!important;
-  }
-  #video3 .shirt{
-    bottom: 96%!important;
-  }
-  /* Road */
-  .cicla{
-    padding-right: 0%!important;
-  }
-  .road{
-    height: 2500px!important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  /* Shirt positon by post */
-  #video1 .shirt{
-    bottom: 90%!important;
-  }
-  #video2 .shirt{
-    bottom: 92%!important;
-  }
-  #video3 .shirt{
-    bottom: 94%!important;
-  }
-  #video4 .shirt{
-    bottom: 86.5%!important;
-  }
-  #video5 .shirt{
-    bottom: 93.4%!important;
-  }
-  /* Road */
-  .road > img{
-    right: 11%!important;
-  }
-  /* Content size */
-  .video-section{
-    height: 6400px!important;
-  }
-  /* Dates */
-  .dates img{
-    right: 58%!important;
-  }
-  #nov9{
-    bottom: 97%!important;
-  }
-  #nov16{
-    bottom: 84%!important;
-  }
-  #nov19{
-    bottom: 67%!important;
-  }
-  #nov26{
-    bottom: 44%!important;
-  }
-  #dic3{
-    bottom: 24.8%!important;
-  }
-  #dic10{
-    bottom: 3%!important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  /* Shirt positon by post */
-  #video1 .shirt{
-    bottom: 94%!important;
-  }
-  #video2 .shirt{
-    bottom: 95%!important;
-  }
-  #video3 .shirt{
-    bottom: 96%!important;
-  }
-  #video4 .shirt{
-    bottom: 89.2%!important;
-  }
-  #video5 .shirt{
-    bottom: 95.7%!important;
-  }
-  .videos1{
-    transform: translateY(10px)!important;
-  }
-  /* Road img*/
-  .road > img{
-    right: 11%!important;
-  }
-  /* Content size */
-  .video-section{
-    height: 7200px!important;
-  }
-  /* Dates */
-  .dates img{
-    right: 58%!important;
-  }
-  #nov9{
-    bottom: 97.7%!important;
-  }
-  #nov16{
-    bottom: 84%!important;
-  }
-  #nov19{
-    bottom: 66%!important;
-  }
-  #nov26{
-    bottom: 43%!important;
-  }
-  #dic3{
-    bottom: 24.2%!important;
-  }
-  #dic10{
-    bottom: 2.7%!important;
-  }
-}
 /* Elements */
 body{
   overflow-x: hidden;
@@ -186,7 +35,7 @@ a{
   text-decoration: underline;
 }
 .display-4 {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 /* Navbar redes */
 .redes  a  img{
@@ -251,11 +100,10 @@ a{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* Road size on div */
-.video-section{
-  height: 6100px;
-}
 /* Video section */
+.video-section{
+  height: 7100px;
+}
 .tiras{
   margin-right: -6%!important;
   padding-bottom: 2%;
@@ -284,6 +132,9 @@ a{
 }
 #video5 .shirt{
   bottom: 92%;
+}
+#video6 .shirt{
+  bottom: 88%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
@@ -362,7 +213,6 @@ a{
   position: absolute;
   z-index: 0;
   width: 80%;
-  height: auto;
   right: 17%;
 }
 /* Dates on road */
@@ -375,19 +225,22 @@ a{
   bottom: 96.4%;
 }
 #nov16{
-  bottom: 85%;
+  bottom: 86%;
 }
 #nov19{
-  bottom: 68%;
+  bottom: 73%;
 }
 #nov26{
-  bottom: 46%;
+  bottom: 54%;
 }
 #dic3{
-  bottom: 26%;
+  bottom: 37%;
 }
 #dic10{
-  bottom: 9%;
+  bottom: 19%;
+}
+#dic17{
+  bottom: 5%
 }
 /* Scroll object */
 #section10 a {
@@ -505,4 +358,149 @@ a{
         }
     100%{
         }
+}
+
+
+/* Responsive */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .text-responsive{
+    text-align: left;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) {
+  /* content ubication */
+  .videos-appear2{
+    transform: translateY(90px);
+  }
+  .videos-appear3{
+    transform: translateY(100px);
+  }
+  .videos-appear4{
+    transform: translateY(100px);
+  }
+  .videos5{
+    transform: translateY(90px);
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Content size */
+  .video-section{
+    height: 8200px;
+  }
+  /* Shirt positon by post */
+  #video1 .shirt{
+    bottom: 94%;
+  }
+  #video2 .shirt{
+    bottom: 95%;
+  }
+  #video3 .shirt{
+    bottom: 96%;
+  }
+  #video4 .shirt{
+    bottom: 89.2%;
+  }
+  #video5 .shirt{
+    bottom: 95.7%;
+  }
+  #video6 .shirt{
+    bottom: 94.7%;
+  }
+  .videos1{
+    transform: translateY(10px);
+  }
+  /* Road img*/
+  .road > img{
+    right: 11%;
+  }
+  /* Dates */
+  .dates img{
+    right: 58%;
+  }
+  #nov9{
+    bottom: 97.7%;
+  }
+  #nov16{
+    bottom: 86%;
+  }
+  #nov19{
+    bottom: 71%;
+  }
+  #nov26{
+    bottom: 51%;
+  }
+  #dic3{
+    bottom: 35%;
+  }
+  #dic10{
+    bottom: 16%;
+  }
+  #dic17{
+    bottom: 1%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Content size */
+  .video-section{
+    height: 7300px;
+  }
+  /* Shirt positon by post */
+  #video1 .shirt{
+    bottom: 89%;
+  }
+  #video2 .shirt{
+    bottom: 92%;
+  }
+  #video3 .shirt{
+    bottom: 94%;
+  }
+  #video4 .shirt{
+    bottom: 86.5%;
+  }
+  #video5 .shirt{
+    bottom: 94%;
+  }
+  #video6 .shirt{
+    bottom: 91%;
+  }
+  /* Road */
+  .road > img{
+    right: 11%;
+  }
+  /* Dates */
+  .dates img{
+    right: 58%;
+  }
+  #nov9{
+    bottom: 96.4%;
+  }
+  #nov16{
+    bottom: 86%;
+  }
+  #nov19{
+    bottom: 72%;
+  }
+  #nov26{
+    bottom: 52%;
+  }
+  #dic3{
+    bottom: 35%;
+  }
+  #dic10{
+    bottom: 16%;
+  }
+  #dic17{
+    bottom: 2%
+  }
+}
+@media (max-width: 1199.98px) {
+  .videos-appear{
+    margin-top: 45px;
+  }
+  /* Road */
+  .cicla{
+    padding-right: 0%;
+  }
 }

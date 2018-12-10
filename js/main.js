@@ -61,7 +61,6 @@ $(document).ready(function () {
           //.addIndicators({name: "Video6"})
           .addTo(controller);
 
-
     // Responsive duration bycicle
     var $window = $(window);
     function checkingWidht() {
@@ -69,29 +68,29 @@ $(document).ready(function () {
       if (windowsize > 991.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"585%",
+          duration:"700%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla (duration: 585%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla (duration: 700%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"700%",
+          duration:"600%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_lg (duration: 700%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_lg (duration: 600%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"700%",
+          duration:"800%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_md (duration: 700%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_md (duration: 800%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }
     }
