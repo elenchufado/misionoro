@@ -78,7 +78,7 @@ $(document).ready(function () {
       if (windowsize > 1199.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"999%",
+          duration:"750%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
@@ -96,11 +96,11 @@ $(document).ready(function () {
       }else {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"1250%",
+          duration:"870%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
+        .addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }
     }
