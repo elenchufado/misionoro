@@ -61,36 +61,46 @@ $(document).ready(function () {
           //.addIndicators({name: "Video6"})
           .addTo(controller);
 
+          // init video6
+            //build
+            var video7 = new ScrollMagic.Scene({
+              triggerElement: ".videos7",
+              triggerHook: 0.58
+            })
+            .setClassToggle(".videos7", 'videos-appear-normalized')//add class
+            //.addIndicators({name: "Video7"})
+            .addTo(controller);
+
     // Responsive duration bycicle
     var $window = $(window);
     function checkingWidht() {
       var windowsize = $window.width();
-      if (windowsize > 991.98) {
+      if (windowsize > 1199.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"700%",
+          duration:"999%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla (duration: 700%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla (duration: 999%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"600%",
+          duration:"1050%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_lg (duration: 600%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_lg (duration: 1050%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"800%",
+          duration:"1250%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        //.addIndicators({name: "Cicla_md (duration: 800%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }
     }
