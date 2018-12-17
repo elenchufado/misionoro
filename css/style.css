@@ -411,7 +411,8 @@ a{
 @media (max-width: 575.98px) {
   /* Content size */
   .video-section{
-    height: 9300px;
+    height: auto;
+    padding-bottom: 400px;
   }
   .text-responsive{
     text-align: left;
