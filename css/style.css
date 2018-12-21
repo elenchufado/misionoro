@@ -45,13 +45,15 @@ a{
 .clouds{
   position: absolute;
   z-index: -1;
-  animation: clouds 50s infinite 0s linear;
+  -webkit-animation: clouds 50s infinite 0s linear;
+          animation: clouds 50s infinite 0s linear;
 }
 .clouds2{
   opacity: 0.7;
   position: absolute;
   z-index: 0;
-  animation: clouds2 50s infinite 0s linear;
+  -webkit-animation: clouds2 50s infinite 0s linear;
+          animation: clouds2 50s infinite 0s linear;
 }
 #logo{
   max-width: 60%;
@@ -101,7 +103,7 @@ a{
 }
 /* Video section */
 .video-section{
-  height: 7400px;
+  height: auto;
 }
 .tiras{
   margin-right: -6%!important;
@@ -130,7 +132,7 @@ a{
   left: 94%;
 }
 #video5 .shirt{
-  bottom: 96.4%;
+  bottom: 91.5%;
 }
 #video6 .shirt{
   bottom: 88%;
@@ -138,10 +140,14 @@ a{
 #video7 .shirt{
   bottom: 88%;
 }
+#video8 .shirt{
+  bottom: 91.3%;
+}
 .video-content{
   background-color: hsla(0,0%,100%,.8);
   padding: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
 }
 /* Content appear because ScrollMagic applies .video-appear to default class */
@@ -150,63 +156,86 @@ a{
 }
 .videos1{
   opacity: 0;
-  transform: translateY(130px);
+  -webkit-transform: translateY(130px);
+          transform: translateY(130px);
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 .videos-appear{
   opacity: 1;
-  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
   margin-top: 100px;
 }
 .videos2{
   opacity: 0;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 .videos-appear2{
   opacity: 1;
-  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 #video3{
   padding-top: 4.4rem!important;
 }
 .videos3{
   opacity: 0;
-  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 .videos-appear3{
   opacity: 1;
-  transform: translateY(-58px);
+  -webkit-transform: translateY(-58px);
+          transform: translateY(-58px);
 }
 .videos4{
   opacity: 0;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 #video4{
   padding-top: 5rem;
   margin-top: 100px;
-  transform: translateY(-200px);
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
 }
 .videos5{
   opacity: 0;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 #video5{
-  transform: translateY(-180px);
+  -webkit-transform: translateY(-180px);
+          transform: translateY(-180px);
 }
 .videos6{
   opacity: 0;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 #video6{
-  transform: translateY(50px);
+  -webkit-transform: translateY(-150px);
+          transform: translateY(-150px);
 }
 .videos7{
   opacity: 0;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 #video7{
-  transform: translateY(90px);
+  -webkit-transform: translateY(-120px);
+          transform: translateY(-120px);
+}
+.videos8{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+#video8{
+  transform: translateY(-90px);
 }
 .video-section .lead{
   line-height: 0px;
@@ -215,7 +244,8 @@ a{
 
 /* Road section */
 .scrolling{
-  animation: riding 0.2s infinite 0s linear;
+  -webkit-animation: riding 0.2s infinite 0s linear;
+          animation: riding 0.2s infinite 0s linear;
 }
 .cicla{
   padding-right: 15%;
@@ -268,7 +298,8 @@ a{
   margin-left: -15px;
   border: 2px solid black;
   border-radius: 50px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 #section10 a span::before {
   position: absolute;
@@ -282,7 +313,8 @@ a{
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
   animation: sdb10 2s infinite;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .demo a {
   position: absolute;
@@ -296,6 +328,7 @@ a{
   font : normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
+  -webkit-transition: opacity .3s;
   transition: opacity .3s;
 }
 .demo a:hover {
@@ -320,14 +353,16 @@ a{
 }
 @keyframes sdb10 {
   0% {
-    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
     opacity: 0;
   }
   40% {
     opacity: 1;
   }
   80% {
-    transform: translate(0, 20px);
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px);
     opacity: 0;
   }
   100% {
@@ -335,39 +370,88 @@ a{
   }
 }
 /* Riding guy animation is below! */
-@keyframes riding{
+@-webkit-keyframes riding{
     0%{
-        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+                transform: rotate(5deg);
         }
     25%{
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
         }
     50%{
-        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+                transform: rotate(-5deg);
         }
     75%{
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
         }
     100%{
-        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+                transform: rotate(5deg);
+        }
+}
+@keyframes riding{
+    0%{
+        -webkit-transform: rotate(5deg);
+                transform: rotate(5deg);
+        }
+    25%{
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        }
+    50%{
+        -webkit-transform: rotate(-5deg);
+                transform: rotate(-5deg);
+        }
+    75%{
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        }
+    100%{
+        -webkit-transform: rotate(5deg);
+                transform: rotate(5deg);
         }
 }
 /* Cloud1 animation */
+@-webkit-keyframes clouds{
+    0%{
+        }
+    50%{
+        -webkit-transform: translateX(180px);
+                transform: translateX(180px);
+        }
+    100%{
+        }
+}
 @keyframes clouds{
     0%{
         }
     50%{
-        transform: translateX(180px);
+        -webkit-transform: translateX(180px);
+                transform: translateX(180px);
         }
     100%{
         }
 }
 /* Cloud2 animation */
+@-webkit-keyframes clouds2{
+    0%{
+        }
+    50%{
+        -webkit-transform: translateX(-180px);
+                transform: translateX(-180px);
+        }
+    100%{
+        }
+}
 @keyframes clouds2{
     0%{
         }
     50%{
-        transform: translateX(-180px);
+        -webkit-transform: translateX(-180px);
+                transform: translateX(-180px);
         }
     100%{
         }
@@ -377,41 +461,49 @@ a{
 /* Responsive */
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
-  /* Content size */
+  /* Content size
   .video-section{
     height: 8900px;
-  }
+  } */
   /* content ubication */
   .videos-appear2{
-    transform: translateY(90px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
   }
   .videos-appear3{
-    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
   }
   .videos-appear4{
-    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
   }
   .videos-appear-normalized{
-        transform: translateY(80px);
+        -webkit-transform: translateY(80px);
+                transform: translateY(80px);
   }
   #video5{
-    transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
   }
   #video6{
-    transform: translateY(130px);
+    -webkit-transform: translateY(130px);
+            transform: translateY(130px);
   }
   #video7{
-    transform: translateY(220px);
+    -webkit-transform: translateY(220px);
+            transform: translateY(220px);
   }
   #video7 .videos7{
-    transform: translateY(60px);
+    -webkit-transform: translateY(60px);
+            transform: translateY(60px);
   }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   /* Content size */
   .video-section{
-    height: auto;
+    /*height: auto;*/
     padding-bottom: 400px;
   }
   .text-responsive{
@@ -419,10 +511,10 @@ a{
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* Content size */
+  /* Content size
   .video-section{
     height: 9100px;
-  }
+  }*/
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 94%;
@@ -446,7 +538,8 @@ a{
     bottom: 95%;
   }
   .videos1{
-    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
   }
   /* Road img*/
   .road > img{
@@ -479,10 +572,10 @@ a{
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* Content size */
+  /* Content size
   .video-section{
     height: 7750px;
-  }
+  }*/
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 89%;

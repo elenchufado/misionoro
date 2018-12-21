@@ -61,7 +61,7 @@ $(document).ready(function () {
           //.addIndicators({name: "Video6"})
           .addTo(controller);
 
-          // init video6
+          // init video7
             //build
             var video7 = new ScrollMagic.Scene({
               triggerElement: ".videos7",
@@ -70,6 +70,16 @@ $(document).ready(function () {
             .setClassToggle(".videos7", 'videos-appear-normalized')//add class
             //.addIndicators({name: "Video7"})
             .addTo(controller);
+
+            // init video8
+              //build
+              var video8 = new ScrollMagic.Scene({
+                triggerElement: ".videos8",
+                triggerHook: 0.58
+              })
+              .setClassToggle(".videos8", 'videos-appear-normalized')//add class
+              .addIndicators({name: "Video"})
+              .addTo(controller);
 
     // Responsive duration bycicle
     var $window = $(window);
@@ -100,7 +110,7 @@ $(document).ready(function () {
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        .addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }
     }
