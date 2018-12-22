@@ -78,7 +78,7 @@ $(document).ready(function () {
                 triggerHook: 0.58
               })
               .setClassToggle(".videos8", 'videos-appear-normalized')//add class
-              .addIndicators({name: "Video"})
+              //.addIndicators({name: "Video"})
               .addTo(controller);
 
     // Responsive duration bycicle
