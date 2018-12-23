@@ -103,7 +103,7 @@ a{
 }
 /* Video section */
 .video-section{
-  height: auto;
+  height: 8700px;
 }
 .tiras{
   margin-right: -6%!important;
@@ -260,7 +260,7 @@ a{
 }
 /* Dates on road */
 .dates img{
-  position: relative;
+  position: absolute;
   width: 50px;
   right: 63%;
 }
@@ -293,7 +293,7 @@ a{
   position: absolute;
   width: 20%;
   left: 34%;
-  bottom: 0.5%;
+  bottom: -2.6%;
 }
 /* Scroll object */
 #section10 a {
@@ -471,10 +471,10 @@ a{
 /* Responsive */
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
-  /* Content size
+  /* Content height */
   .video-section{
-    height: 8900px;
-  } */
+    height: 10500px;
+  }
   /* content ubication */
   .videos-appear2{
     -webkit-transform: translateY(90px);
@@ -517,13 +517,17 @@ a{
 @media (max-width: 575.98px) {
   /* Content size */
   .video-section{
-    padding-bottom: 400px;
+    height: 12500px;
   }
   .text-responsive{
     text-align: left;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* Content height */
+  .video-section{
+    height: 10600px;
+  }
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 94%;
@@ -591,9 +595,14 @@ a{
   /* Finish flag */
   #finish{
     left: 38%;
+    bottom: -0.1%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Content height */
+  .video-section{
+    height: 8900px;
+  }
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 89%;
@@ -654,6 +663,7 @@ a{
   /* Finish flag */
   #finish{
     left: 38%;
+    bottom: 0.5%;
   }
 }
 @media (max-width: 1199.98px) {

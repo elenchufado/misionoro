@@ -88,30 +88,32 @@ $(document).ready(function () {
       if (windowsize > 1199.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"900%",
+          duration:'1099%',
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        .addIndicators({name: "Cicla (duration: 999%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla (duration: 1099%)"}) // add indicators (requires plugin)
         .addTo(controller);
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"1050%",
+          duration:"1199%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        .addIndicators({name: "Cicla_lg (duration: 1050%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_lg (duration: 1199%)"}) // add indicators (requires plugin)
         .addTo(controller);
-      }else {
+      }else if (windowsize < 992 && windowsize >= 768) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"870%",
+          duration:"1510%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
-        .addIndicators({name: "Cicla_md (duration: 1250%)"}) // add indicators (requires plugin)
+        //.addIndicators({name: "Cicla_md (duration: 1510%)"}) // add indicators (requires plugin)
         .addTo(controller);
+      } else {
+        var cicla = "";
       }
     }
     // Execute on load
