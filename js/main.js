@@ -88,7 +88,7 @@ $(document).ready(function () {
       if (windowsize > 1199.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:'1099%',
+          duration:'790%',
           triggerHook: 0.4
         })
         .setPin(".cicla")
@@ -97,7 +97,7 @@ $(document).ready(function () {
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"1199%",
+          duration:"899%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
@@ -106,7 +106,7 @@ $(document).ready(function () {
       }else if (windowsize < 992 && windowsize >= 768) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"1510%",
+          duration:"950%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
