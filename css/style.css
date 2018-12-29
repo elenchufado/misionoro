@@ -1,3 +1,8 @@
+:root{
+  --addDatesPosition: 5%;
+  --addDatesPositionLG: 6%;
+  --addDatesPositionMD: 5%;
+}
 @font-face {
     font-family: ArcaMajora;
     src: url(../fonts/ArcaMajora3-Heavy.otf);
@@ -280,26 +285,29 @@ a{
   bottom: 78%;
 }
 #nov26{
-  bottom: 61.9%;
+  bottom: 64.5%;
 }
 #dic3{
-  bottom: 48.2%;
+  bottom: 51.6%;
 }
 #dic10{
-  bottom: 33.7%;
+  bottom: calc(33.7% + var(--addDatesPosition));
 }
 #dic17{
-  bottom: 24%
+  bottom: calc(24% + var(--addDatesPosition));
 }
 #dic24{
-  bottom: 13.6%;
+  bottom: calc(13.6% + var(--addDatesPosition));
+}
+#dic31{
+  bottom: 6.4%;
 }
 /* Finish flag */
 #finish{
   position: absolute;
   width: 20%;
   left: 34%;
-  bottom: 0%;
+  bottom: 0.5%;
 }
 /* Scroll object */
 #section10 a {
@@ -478,7 +486,7 @@ a{
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
   .video-section{
-    height: 13600px;
+    padding-bottom: 100px;
   }
   /* content ubication */
   .videos-appear2{
@@ -553,6 +561,9 @@ a{
   #video8 .shirt{
     bottom: 96.3%;
   }
+  #video9 .shirt{
+    bottom: 92.2%;
+  }
   .videos1{
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
@@ -572,27 +583,30 @@ a{
     bottom: 89.3%;
   }
   #nov19{
-    bottom: 77.7%;
+    bottom: 78.8%;
   }
   #nov26{
-    bottom: 62.9%;
+    bottom: calc(60.6% + var(--addDatesPositionMD));
   }
   #dic3{
-    bottom: 50.9%;
+    bottom: calc(49.7% + var(--addDatesPositionMD));
   }
   #dic10{
-    bottom: 37.3%;
+    bottom: calc(37.3% + var(--addDatesPositionMD));
   }
   #dic17{
-    bottom: 26.8%;
+    bottom: calc(26.8% + var(--addDatesPositionMD));
   }
   #dic24{
-    bottom: 14.9%;
+    bottom: calc(15.9% + var(--addDatesPositionMD));
+  }
+  #dic31{
+
   }
   /* Finish flag */
   #finish{
     left: 38%;
-    bottom: -0.1%;
+    bottom: 0.4%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -636,22 +650,25 @@ a{
     bottom: 89%;
   }
   #nov19{
-    bottom: 77.9%;
+    bottom: 79%;
   }
   #nov26{
-    bottom: 62.6%;
+    bottom: 64.7%;
   }
   #dic3{
-    bottom: 49.6%;
+    bottom: 42.7%;
   }
   #dic10{
-    bottom: 35%;
+    bottom: calc(34% + var(--addDatesPositionLG));
   }
   #dic17{
-    bottom: 24.8%
+    bottom: calc(24% + var(--addDatesPositionLG));
   }
   #dic24{
-    bottom: 14%;
+    bottom: calc(14% + var(--addDatesPositionLG));
+  }
+  #dic31{
+
   }
   /* Finish flag */
   #finish{
