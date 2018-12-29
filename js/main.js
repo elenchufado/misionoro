@@ -81,6 +81,16 @@ $(document).ready(function () {
               //.addIndicators({name: "Video"})
               .addTo(controller);
 
+              // init video9
+                //build
+                var video9 = new ScrollMagic.Scene({
+                  triggerElement: ".videos9",
+                  triggerHook: 0.58
+                })
+                .setClassToggle(".videos9", 'videos-appear-normalized')//add class
+                //.addIndicators({name: "Video"})
+                .addTo(controller);
+
     // Responsive duration bycicle
     var $window = $(window);
     function checkingWidht() {
@@ -88,7 +98,7 @@ $(document).ready(function () {
       if (windowsize > 1199.98) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:'790%',
+          //duration:'100',
           triggerHook: 0.4
         })
         .setPin(".cicla")
@@ -97,7 +107,7 @@ $(document).ready(function () {
       }else if (windowsize <= 1199.98 && windowsize >= 992) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"899%",
+          //duration:"899%",
           triggerHook: 0.4
         })
         .setPin(".cicla")
@@ -106,7 +116,7 @@ $(document).ready(function () {
       }else if (windowsize < 992 && windowsize >= 768) {
         var cicla = new ScrollMagic.Scene({
           triggerElement: '.cicla',
-          duration:"950%",
+          //duration:"950%",
           triggerHook: 0.4
         })
         .setPin(".cicla")

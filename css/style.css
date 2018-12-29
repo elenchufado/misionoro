@@ -103,7 +103,7 @@ a{
 }
 /* Video section */
 .video-section{
-  height: 8700px;
+  height: auto;
 }
 .tiras{
   margin-right: -6%!important;
@@ -237,6 +237,13 @@ a{
 #video8{
   transform: translateY(-90px);
 }
+.videos9{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+#video9{
+  transform: translateY(-50px);
+}
 .video-section .lead{
   line-height: 0px;
   margin-left: 1em;
@@ -248,8 +255,7 @@ a{
           animation: riding 0.2s infinite 0s linear;
 }
 .cicla{
-  padding-right: 15%;
-  position: static!important;
+  padding-right: 4%;
 }
 /* Road img */
 .road > img{
@@ -293,7 +299,7 @@ a{
   position: absolute;
   width: 20%;
   left: 34%;
-  bottom: -1.6%;
+  bottom: 0%;
 }
 /* Scroll object */
 #section10 a {
@@ -471,9 +477,8 @@ a{
 /* Responsive */
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
-  /* Content height */
   .video-section{
-    height: 10500px;
+    height: 13600px;
   }
   /* content ubication */
   .videos-appear2{
@@ -515,19 +520,11 @@ a{
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* Content size */
-  .video-section{
-    height: 14000px;
-  }
   .text-responsive{
     text-align: left;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* Content height */
-  .video-section{
-    height: 10800px;
-  }
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 94%;
@@ -599,10 +596,6 @@ a{
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* Content height */
-  .video-section{
-    height: 9090px;
-  }
   /* Shirt positon by post */
   #video1 .shirt{
     bottom: 89%;
