@@ -1,7 +1,7 @@
 :root{
-  --addDatesPosition: 5%;
+  --addDatesPosition: 7.3%;
   --addDatesPositionLG: 6%;
-  --addDatesPositionMD: 5%;
+  --addDatesPositionMD: 8%;
 }
 @font-face {
     font-family: ArcaMajora;
@@ -109,6 +109,7 @@ a{
 /* Video section */
 .video-section{
   height: auto;
+  padding-bottom: 40px;
 }
 .tiras{
   margin-right: -6%!important;
@@ -148,6 +149,10 @@ a{
 #video8 .shirt{
   bottom: 91.3%;
 }
+#video10 .shirt{
+  bottom: 7.2%;
+  left: 92%;
+}
 .video-content{
   background-color: hsla(0,0%,100%,.8);
   padding: 5%;
@@ -155,7 +160,7 @@ a{
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
 }
-/* Content appear because ScrollMagic applies .video-appear to default class */
+/* Content appear because ScrollMagic applies .video-appear-normalized to default class */
 .videos-appear-normalized{
   opacity: 1!important;
 }
@@ -249,6 +254,10 @@ a{
 #video9{
   transform: translateY(-50px);
 }
+.videos10{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
 .video-section .lead{
   line-height: 0px;
   margin-left: 1em;
@@ -279,28 +288,31 @@ a{
   bottom: 96.4%;
 }
 #nov16{
-  bottom: 88.6%;
+  bottom: 89.7%;
 }
 #nov19{
-  bottom: 78%;
+  bottom: 80.3%;
 }
 #nov26{
-  bottom: 64.5%;
+  bottom: 67.4%;
 }
 #dic3{
-  bottom: 51.6%;
+  bottom: 55.6%;
 }
 #dic10{
-  bottom: calc(33.7% + var(--addDatesPosition));
+  bottom: calc(35.7% + var(--addDatesPosition));
 }
 #dic17{
-  bottom: calc(24% + var(--addDatesPosition));
+  bottom: calc(27.2% + var(--addDatesPosition));
 }
 #dic24{
-  bottom: calc(13.6% + var(--addDatesPosition));
+  bottom: calc(18.5% + var(--addDatesPosition));
 }
 #dic31{
-  bottom: 6.4%;
+  bottom: calc(6.4% + var(--addDatesPosition));
+}
+#ene8{
+  bottom: calc(var(--addDatesPosition));
 }
 /* Finish flag */
 #finish{
@@ -486,7 +498,7 @@ a{
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
   .video-section{
-    padding-bottom: 100px;
+    padding-bottom: 200px;
   }
   /* content ubication */
   .videos-appear2{
@@ -524,6 +536,9 @@ a{
   #video8{
     padding-top: 420px;
     padding-bottom: 50px;
+  }
+  #video10{
+    transform: translateY(60px);
   }
 }
 /* Extra small devices (portrait phones, less than 576px) */
@@ -564,6 +579,9 @@ a{
   #video9 .shirt{
     bottom: 92.2%;
   }
+  #video10 .shirt{
+    bottom: 8.4%
+  }
   .videos1{
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
@@ -580,33 +598,36 @@ a{
     bottom: 97.7%;
   }
   #nov16{
-    bottom: 89.3%;
+    bottom: 90.4%;
   }
   #nov19{
-    bottom: 78.8%;
+    bottom: 80.8%;
   }
   #nov26{
     bottom: calc(60.6% + var(--addDatesPositionMD));
   }
   #dic3{
-    bottom: calc(49.7% + var(--addDatesPositionMD));
+    bottom: calc(50.7% + var(--addDatesPositionMD));
   }
   #dic10{
-    bottom: calc(37.3% + var(--addDatesPositionMD));
+    bottom: calc(39.2% + var(--addDatesPositionMD));
   }
   #dic17{
-    bottom: calc(26.8% + var(--addDatesPositionMD));
+    bottom: calc(29.8% + var(--addDatesPositionMD));
   }
   #dic24{
-    bottom: calc(15.9% + var(--addDatesPositionMD));
+    bottom: calc(19.9% + var(--addDatesPositionMD));
   }
   #dic31{
-
+    bottom: calc(6.9% + var(--addDatesPositionMD));
+  }
+  #ene8{
+    bottom: calc(var(--addDatesPositionMD));
   }
   /* Finish flag */
   #finish{
     left: 38%;
-    bottom: 0.4%;
+    bottom: -0.3%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -635,6 +656,9 @@ a{
   #video8 .shirt{
     bottom: 93.3%;
   }
+  #video9 .shirt{
+    bottom: 88%;
+  }
   /* Road */
   .road > img{
     right: 11%;
@@ -647,25 +671,25 @@ a{
     bottom: 97.4%;
   }
   #nov16{
-    bottom: 89%;
+    bottom: 91%;
   }
   #nov19{
-    bottom: 79%;
+    bottom: 81%;
   }
   #nov26{
-    bottom: 64.7%;
+    bottom: 67.7%;
   }
   #dic3{
-    bottom: 42.7%;
+    bottom: 56.7%;
   }
   #dic10{
-    bottom: calc(34% + var(--addDatesPositionLG));
+    bottom: calc(38.5% + var(--addDatesPositionLG));
   }
   #dic17{
-    bottom: calc(24% + var(--addDatesPositionLG));
+    bottom: calc(30% + var(--addDatesPositionLG));
   }
   #dic24{
-    bottom: calc(14% + var(--addDatesPositionLG));
+    bottom: calc(20% + var(--addDatesPositionLG));
   }
   #dic31{
 
@@ -673,7 +697,7 @@ a{
   /* Finish flag */
   #finish{
     left: 38%;
-    bottom: 0.5%;
+    bottom: -0.2%;
   }
 }
 @media (max-width: 1199.98px) {
