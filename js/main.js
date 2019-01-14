@@ -91,7 +91,7 @@ $(document).ready(function () {
                 //.addIndicators({name: "Video"})
                 .addTo(controller);
 
-                // init video9
+                // init video10
                   //build
                   var video10 = new ScrollMagic.Scene({
                     triggerElement: ".videos10",
@@ -100,6 +100,16 @@ $(document).ready(function () {
                   .setClassToggle(".videos10", 'videos-appear-normalized')//add class
                   //.addIndicators({name: "Video"})
                   .addTo(controller);
+
+                  // init video11
+                    //build
+                    var video11 = new ScrollMagic.Scene({
+                      triggerElement: ".videos11",
+                      triggerHook: 0.58
+                    })
+                    .setClassToggle(".videos11", 'videos-appear-normalized')//add class
+                    //.addIndicators({name: "Video"})
+                    .addTo(controller);
 
     // Responsive duration bycicle
     var $window = $(window);
