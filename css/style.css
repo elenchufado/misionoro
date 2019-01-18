@@ -339,6 +339,9 @@ a{
 #ene14{
   bottom: 20%;
 }
+#ene18{
+  bottom: 9%;
+}
 /* Finish flag */
 #finish{
   position: absolute;
@@ -616,6 +619,9 @@ a{
   #video11 .shirt{
     bottom: 96.4%
   }
+  #video12 .shirt{
+    bottom: 95.4%
+  }
   .videos1{
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
@@ -656,15 +662,18 @@ a{
     bottom: calc(23.2% + var(--addDatesPositionMD));
   }
   #ene8{
-    bottom: 25.5%;
+    bottom: 25.8%;
   }
   #ene14{
-    bottom: 18.3%;
+    bottom: 18.8%;
+  }
+  #ene18{
+    bottom: 7.4%;
   }
   /* Finish flag */
   #finish{
     left: 38%;
-    bottom: -0.3%;
+    bottom: 0.7%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -742,6 +751,9 @@ a{
   }
   #ene14{
     bottom: 19.5%;
+  }
+  #ene18{
+    bottom: 8%;
   }
   /* Finish flag */
   #finish{
