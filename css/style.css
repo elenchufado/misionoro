@@ -154,7 +154,7 @@ a{
   bottom: 92.3%;
 }
 #video13 .shirt{
-  bottom: 92%;
+  bottom: 94%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
@@ -284,7 +284,6 @@ a{
 }
 #video13{
   transform: translateY(65px);
-  height: 1300px;
 }
 .video-section .lead{
   line-height: 0px;
@@ -349,7 +348,7 @@ a{
   bottom: 17.4%;
 }
 #ene21{
-  bottom: 8%;
+  bottom: 10%;
 }
 /* Finish flag */
 #finish{
@@ -634,6 +633,9 @@ a{
   #video12 .shirt{
     bottom: 95.4%
   }
+  #video13 .shirt{
+    bottom: 96.7%
+  }
   .videos1{
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
@@ -682,13 +684,13 @@ a{
   #ene18{
     bottom: 15.6%;
   }
+  #ene21{
+    bottom: 9.5%;
+  }
   /* Finish flag */
   #finish{
     left: 38%;
     bottom: -0.2%;
-  }
-  #video13{
-    height: 1500px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -771,7 +773,7 @@ a{
     bottom: 16.7%;
   }
   #ene21{
-    bottom: 7.5%;
+    bottom: 9.5%;
   }
   /* Finish flag */
   #finish{
