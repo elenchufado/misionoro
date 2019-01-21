@@ -1,8 +1,3 @@
-:root{
-  --addDatesPosition: 7.3%;
-  --addDatesPositionLG: 6%;
-  --addDatesPositionMD: 8%;
-}
 @font-face {
     font-family: ArcaMajora;
     src: url(../fonts/ArcaMajora3-Heavy.otf);
@@ -109,7 +104,7 @@ a{
 /* Video section */
 .video-section{
   height: auto;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 .tiras{
   margin-right: -6%!important;
@@ -157,6 +152,9 @@ a{
 }
 #video12 .shirt{
   bottom: 92.3%;
+}
+#video13 .shirt{
+  bottom: 92%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
@@ -280,6 +278,13 @@ a{
 #video12{
   transform: translateY(40px);
 }
+.videos13{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+#video13{
+  transform: translateY(65px);
+}
 .video-section .lead{
   line-height: 0px;
   margin-left: 1em;
@@ -310,37 +315,40 @@ a{
   bottom: 96.6%;
 }
 #nov16{
-  bottom: 91.8%;
+  bottom: 92.8%;
 }
 #nov19{
-  bottom: 84.4%;
+  bottom: 85.7%;
 }
 #nov26{
-  bottom: 74.3%;
+  bottom: 76.5%;
 }
 #dic3{
-  bottom: 64.7%;
+  bottom: 68%;
 }
 #dic10{
-  bottom: calc(47.8% + var(--addDatesPosition));
+  bottom: 59.1%;
 }
 #dic17{
-  bottom: calc(41.3% + var(--addDatesPosition));
+  bottom: 53.6%;
 }
 #dic24{
-  bottom: calc(34.4% + var(--addDatesPosition));
+  bottom: 47.3%;
 }
 #dic31{
-  bottom: calc(24.4% + var(--addDatesPosition));
+  bottom: 38.7%;
 }
 #ene8{
-  bottom: 26.6%;
+  bottom: 36.7%;
 }
 #ene14{
-  bottom: 20%;
+  bottom: 28%;
 }
 #ene18{
-  bottom: 9%;
+  bottom: 17.4%;
+}
+#ene21{
+  bottom: 8%;
 }
 /* Finish flag */
 #finish{
@@ -526,7 +534,7 @@ a{
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) {
   .video-section{
-    padding-bottom: 105%;
+    padding-bottom: 100vh;
   }
   /* content ubication */
   .videos-appear2{
@@ -573,6 +581,9 @@ a{
   }
   #video12{
     transform: translateY(380px);
+  }
+  #video13{
+    transform: translateY(490px);
   }
 }
 /* Extra small devices (portrait phones, less than 576px) */
@@ -638,42 +649,42 @@ a{
     bottom: 97.7%;
   }
   #nov16{
-    bottom: 92%;
+    bottom: 93%;
   }
   #nov19{
-    bottom: 84%;
+    bottom: 86%;
   }
   #nov26{
-    bottom: calc(66.5% + var(--addDatesPositionMD));
+    bottom: 77%;
   }
   #dic3{
-    bottom: calc(58.5% + var(--addDatesPositionMD));
+    bottom: 69.6%;
   }
   #dic10{
-    bottom: calc(49.3% + var(--addDatesPositionMD));
+    bottom: 61.3%;
   }
   #dic17{
-    bottom: calc(42% + var(--addDatesPositionMD));
+    bottom: 54.5%;
   }
   #dic24{
-    bottom: calc(33.4% + var(--addDatesPositionMD));
+    bottom: 46.7%;
   }
   #dic31{
-    bottom: calc(23.2% + var(--addDatesPositionMD));
+    bottom: 37.4%;
   }
   #ene8{
-    bottom: 25.8%;
+    bottom: 32.7%;
   }
   #ene14{
-    bottom: 18.8%;
+    bottom: 25.8%;
   }
   #ene18{
-    bottom: 7.4%;
+    bottom: 15.6%;
   }
   /* Finish flag */
   #finish{
     left: 38%;
-    bottom: 0.7%;
+    bottom: -0.2%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -723,37 +734,40 @@ a{
     bottom: 97.4%;
   }
   #nov16{
-    bottom: 92%;
+    bottom: 93%;
   }
   #nov19{
-    bottom: 84.3%;
+    bottom: 86.3%;
   }
   #nov26{
-    bottom: 74.5%;
+    bottom: 76.7%;
   }
   #dic3{
-    bottom: 65.8%;
+    bottom: 68.8%;
   }
   #dic10{
-    bottom: calc(49.7% + var(--addDatesPositionLG));
+    bottom: 59.8%;
   }
   #dic17{
-    bottom: calc(43% + var(--addDatesPositionLG));
+    bottom: 53.6%;
   }
   #dic24{
-    bottom: calc(35.4% + var(--addDatesPositionLG));
+    bottom: 46.6%;
   }
   #dic31{
-    bottom: 31.7%;
+    bottom: 37.9%;
   }
   #ene8{
-    bottom: 26.2%;
+    bottom: 33.2%;
   }
   #ene14{
-    bottom: 19.5%;
+    bottom: 26.8%;
   }
   #ene18{
-    bottom: 8%;
+    bottom: 16.7%;
+  }
+  #ene21{
+    bottom: 7.5%;
   }
   /* Finish flag */
   #finish{
