@@ -284,6 +284,7 @@ a{
 }
 #video13{
   transform: translateY(65px);
+  height: 1300px;
 }
 .video-section .lead{
   line-height: 0px;
@@ -339,7 +340,7 @@ a{
   bottom: 38.7%;
 }
 #ene8{
-  bottom: 36.7%;
+  bottom: 34.7%;
 }
 #ene14{
   bottom: 28%;
@@ -685,6 +686,9 @@ a{
   #finish{
     left: 38%;
     bottom: -0.2%;
+  }
+  #video13{
+    height: 1500px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
