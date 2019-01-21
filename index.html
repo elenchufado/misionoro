@@ -1,644 +1,681 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Misión Oro</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Style -->
-    <link href="css/style.css?v=8.9" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="expires" content="0" />
+      <meta http-equiv="pragma" content="no-cache" />
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Misión Oro</title>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Style -->
+      <link href="css/style.css?v=9" rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <![endif]-->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119886001-3"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119886001-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-119886001-3');
-    </script>
-  </head>
-  <body>
+         gtag('config', 'UA-119886001-3');
+      </script>
+   </head>
+   <body>
       <!-- Navbar -->
       <div class="container-fluid shadow-sm bg-white">
-        <div class="row align-items-center">
+         <div class="row align-items-center">
             <div class="col-md-8 text-left">
-                <img src="images/cobranding_mision_oro.png" alt="Logo Misión Oro" width="60%">
+               <img src="images/cobranding_mision_oro.png" alt="Logo Misión Oro" width="60%">
             </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 text-right pt-4 redes">
-                  <a href="https://www.facebook.com/ContinentalGCol/" target="new">
-                      <img src="images/facebook.png" alt="" style="padding-right: 10px;">
-                  </a>
-                  <a href="https://www.instagram.com/continentalgcol/" target="new">
-                      <img src="images/instagram.png" alt="" style="padding-right: 10px;">
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCb5IlyyF9aC1riIoTwPW8Cw/featured" target="new">
-                      <img src="images/youtube.png" alt="" style="padding-right: 10px;">
-                  </a>
-                  <a href="https://twitter.com/CNLGold" target="new">
-                      <img src="images/twitter.png" alt="">
-                  </a>
-                  <a href="https://www.linkedin.com/company/continental-gold-ltd/" target="new">
-                      <img src="images/linkdin.png" alt="">
-                  </a>
-              </div>
-        </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 text-right pt-4 redes">
+               <a href="https://www.facebook.com/ContinentalGCol/" target="new">
+               <img src="images/facebook.png" alt="" style="padding-right: 10px;">
+               </a>
+               <a href="https://www.instagram.com/continentalgcol/" target="new">
+               <img src="images/instagram.png" alt="" style="padding-right: 10px;">
+               </a>
+               <a href="https://www.youtube.com/channel/UCb5IlyyF9aC1riIoTwPW8Cw/featured" target="new">
+               <img src="images/youtube.png" alt="" style="padding-right: 10px;">
+               </a>
+               <a href="https://twitter.com/CNLGold" target="new">
+               <img src="images/twitter.png" alt="">
+               </a>
+               <a href="https://www.linkedin.com/company/continental-gold-ltd/" target="new">
+               <img src="images/linkdin.png" alt="">
+               </a>
+            </div>
+         </div>
       </div>
-       <!-- Navbar -->
-    <!-- Intro box -->
-    <main role="main" id="intro-box" class="container-fluid text-center">
-      <div class="container py-5">
-        <div class="row">
-          <div class="clouds">
-            <img src="images/clouds.png" alt="nubes">
-          </div>
-          <div class="clouds2">
-            <img src="images/clouds2.png" alt="nubes">
-          </div>
-          <div class="col-md-8 col-sm-12 col-lg-7">
-            <div class="container">
-              <h2 class="display-4">¿Qué es?</h2>
-              <p class="lead cover-colors">Una iniciativa que transformará y mejorará la manera en que hacemos las cosas en Continental Gold, continuando la implementación de la plataforma JD Edwards.<br>
-                Pedalazo a pedalazo llegaremos a la meta el 4 de febrero de 2019.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Scroll indicator -->
-      <section id="section10" class="demo d-none d-lg-block">
-        <a href="#faq"><span></span>Scroll</a>
-      </section>
-      <!-- Scroll indicator -->
-    </main>
-    <!-- Intro box -->
-    <!-- FAQ section -->
-    <div id="faq"class="container-fluid green-context py-4">
-      <div class="container">
-        <h2 class="text-white py-3 standar-intro"><span class="text-muted">ENTENDIENDO</span><br><span class="titulo">MISIÓN ORO</span></h2>
-        <!-- First row -->
-        <div class="row">
-          <!-- Pregunta 1 -->
-          <div class="col-sm">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                    <div class="panel-heading faq-question" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta1" aria-expanded="false" aria-controls="pregunta1">
-                                <span class="botonmas">+</span> ¿Por qué es importante avanzar en esta <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="pregunta1" class="panel-collapse faq-response collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body">
-                          Con la implementación de nuestro nuevo ERP tendremos un sistema adaptado al tamaño de Continental Gold y su operación futura, asegurando capacidad tecnológica con una herramienta de clase mundial para los procesos de: compras, mantenimiento, financiera e inventarios.
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pregunta 1 -->
-            <!-- Pregunta 2 -->
-            <div class="col-sm">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                      <div class="panel-heading faq-question" role="tab" id="headingOne">
-                          <h4 class="panel-title">
-                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
-                                  <span class="botonmas">+</span> ¿Quiénes hacen parte de la <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
-                              </a>
-                          </h4>
-                      </div>
-                      <div id="pregunta2" class="panel-collapse faq-response collapse in" role="tabpanel" aria-labelledby="headingOne">
-                          <div class="panel-body">
-                            Un equipo de primer nivel conformado por integrantes de las áreas de: Las áreas de Logística, Compras e inventarios, Mantenimiento y el área de finanzas, soportado por TIC. Ustedes son esos que pedalean con su esfuerzo, primeros en el lote, para que JD Edwards llegue a la meta. Sin ustedes, gregarios solidarios, no sería posible el logro de cada etapa.
-                          </div>
-                      </div>
+      <!-- Navbar -->
+      <!-- Intro box -->
+      <main role="main" id="intro-box" class="container-fluid text-center">
+         <div class="container py-5">
+            <div class="row">
+               <div class="clouds">
+                  <img src="images/clouds.png" alt="nubes">
+               </div>
+               <div class="clouds2">
+                  <img src="images/clouds2.png" alt="nubes">
+               </div>
+               <div class="col-md-8 col-sm-12 col-lg-7">
+                  <div class="container">
+                     <h2 class="display-4">¿Qué es?</h2>
+                     <p class="lead cover-colors">Una iniciativa que transformará y mejorará la manera en que hacemos las cosas en Continental Gold, continuando la implementación de la plataforma JD Edwards.<br>
+                        Pedalazo a pedalazo llegaremos a la meta el 4 de febrero de 2019.
+                     </p>
                   </div>
-                </div>
-              </div>
-              <!-- Pregunta 2 -->
-              <!-- Pregunta 3 -->
-              <div class="col-sm">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
+               </div>
+            </div>
+         </div>
+         <!-- Scroll indicator -->
+         <section id="section10" class="demo d-none d-lg-block">
+            <a href="#faq"><span></span>Scroll</a>
+         </section>
+         <!-- Scroll indicator -->
+      </main>
+      <!-- Intro box -->
+      <!-- FAQ section -->
+      <div id="faq"class="container-fluid green-context py-4">
+         <div class="container">
+            <h2 class="text-white py-3 standar-intro"><span class="text-muted">ENTENDIENDO</span><br><span class="titulo">MISIÓN ORO</span></h2>
+            <!-- First row -->
+            <div class="row">
+               <!-- Pregunta 1 -->
+               <div class="col-sm">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                     <div class="panel panel-default">
                         <div class="panel-heading faq-question" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta3" aria-expanded="false" aria-controls="pregunta3">
-                                    <span class="botonmas">+</span> ¿Cuáles son las etapas de la <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
-                                </a>
-                            </h4>
+                           <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta1" aria-expanded="false" aria-controls="pregunta1">
+                              <span class="botonmas">+</span> ¿Por qué es importante avanzar en esta <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
+                              </a>
+                           </h4>
+                        </div>
+                        <div id="pregunta1" class="panel-collapse faq-response collapse in" role="tabpanel" aria-labelledby="headingOne">
+                           <div class="panel-body">
+                              Con la implementación de nuestro nuevo ERP tendremos un sistema adaptado al tamaño de Continental Gold y su operación futura, asegurando capacidad tecnológica con una herramienta de clase mundial para los procesos de: compras, mantenimiento, financiera e inventarios.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Pregunta 1 -->
+               <!-- Pregunta 2 -->
+               <div class="col-sm">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                     <div class="panel panel-default">
+                        <div class="panel-heading faq-question" role="tab" id="headingOne">
+                           <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
+                              <span class="botonmas">+</span> ¿Quiénes hacen parte de la <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
+                              </a>
+                           </h4>
+                        </div>
+                        <div id="pregunta2" class="panel-collapse faq-response collapse in" role="tabpanel" aria-labelledby="headingOne">
+                           <div class="panel-body">
+                              Un equipo de primer nivel conformado por integrantes de las áreas de: Las áreas de Logística, Compras e inventarios, Mantenimiento y el área de finanzas, soportado por TIC. Ustedes son esos que pedalean con su esfuerzo, primeros en el lote, para que JD Edwards llegue a la meta. Sin ustedes, gregarios solidarios, no sería posible el logro de cada etapa.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Pregunta 2 -->
+               <!-- Pregunta 3 -->
+               <div class="col-sm">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                     <div class="panel panel-default">
+                        <div class="panel-heading faq-question" role="tab" id="headingOne">
+                           <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta3" aria-expanded="false" aria-controls="pregunta3">
+                              <span class="botonmas">+</span> ¿Cuáles son las etapas de la <small>Misión Oro</small>?<br><span class="ver-mas lead">(Ver más)</span><br>
+                              </a>
+                           </h4>
                         </div>
                         <div id="pregunta3" class="panel-collapse faq-response collapse in" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
+                           <div class="panel-body">
                               <ul>
-                                <li>Cambios al modelo de negocio</li>
-                                <li>Re construcción</li>
-                                <li>Pruebas de Unitarias</li>
-                                <li>Ajustes</li>
-                                <li>Pruebas Integrales</li>
-                                <li>Pre Salida a vivo</li>
-                                <li>Salida a vivo</li>
+                                 <li>Cambios al modelo de negocio</li>
+                                 <li>Re construcción</li>
+                                 <li>Pruebas de Unitarias</li>
+                                 <li>Ajustes</li>
+                                 <li>Pruebas Integrales</li>
+                                 <li>Pre Salida a vivo</li>
+                                 <li>Salida a vivo</li>
                               </ul>
-                            </div>
+                           </div>
                         </div>
-                    </div>
+                     </div>
                   </div>
-                </div>
-                <!-- Pregunta 3 -->
-          </div>
-          <!-- First row -->
-          <!-- Second row -->
-          <div class="row py-5 text-center">
-            <!-- Pregunta 4 -->
-            <div class="mx-auto">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                      <div class="panel-heading text-responsive faq-question" role="tab" id="headingOne">
-                          <h4 class="panel-title">
+               </div>
+               <!-- Pregunta 3 -->
+            </div>
+            <!-- First row -->
+            <!-- Second row -->
+            <div class="row py-5 text-center">
+               <!-- Pregunta 4 -->
+               <div class="mx-auto">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-responsive faq-question" role="tab" id="headingOne">
+                           <h4 class="panel-title">
                               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#pregunta4" aria-expanded="false" aria-controls="pregunta4">
-                                  <span class="botonmas">+</span> ¿Cuáles son las grandes enseñanzas que la <small>Misión Oro</small> nos dejará en su recorrido?<br><span class="ver-mas lead">(Ver más)</span><br>
+                              <span class="botonmas">+</span> ¿Cuáles son las grandes enseñanzas que la <small>Misión Oro</small> nos dejará en su recorrido?<br><span class="ver-mas lead">(Ver más)</span><br>
                               </a>
-                          </h4>
-                      </div>
-                      <div id="pregunta4" class="panel-collapse faq-response collapse in text-justify" role="tabpanel" aria-labelledby="headingOne">
-                          <div class="panel-body">
-                            <p><b>El resultado no es lo único que sirve.</b> En el ciclismo, la mayoría de las veces, los fugados del lote le imprimen mayor velocidad a la carrera, pero no terminan en el primer lugar. Aun así, son aplaudidos, porque en el ciclismo son bien vistos los gregarios, los compañeros de equipo que no lograrán podio en la etapa, pero que ayudarán a que el líder del equipo consiga la victoria.</p>
-                            <p><b>El verdadero trabajo en equipo es fundamental.</b>  En el ciclismo, las pruebas no se pueden ganar si cada compañero no trabaja para el triunfo y así, todos aportan, y todos se sacrifican. Gracias a ti, coequipero de la Misión Oro, porque el aporte y el sacrificio que estás haciendo, nos llevará a la meta.</p>
-                            <p><b>No desfallecer, en medio de las dificultades.</b>  Cuando la sensación de derrota te quiera invadir, mira siempre hacia adelante, hacia la meta que se avecina, y hacia tus compañeros, que ahí están trabajando y pedaleando contigo, para llegar todos al triunfo.</p>
-                            <p><b>Las pequeñas cosas también cuentan.</b> Cada pedaleo es importante. Tu aporte, en el momento justo, es fundamental. Cuando un coequipero está bajo de ánimo y sin fuerzas, tu apoyo y animación es fundamental, tan sólo con un simple gesto, o una breve sonrisa.</p>
-                          </div>
-                      </div>
+                           </h4>
+                        </div>
+                        <div id="pregunta4" class="panel-collapse faq-response collapse in text-justify" role="tabpanel" aria-labelledby="headingOne">
+                           <div class="panel-body">
+                              <p><b>El resultado no es lo único que sirve.</b> En el ciclismo, la mayoría de las veces, los fugados del lote le imprimen mayor velocidad a la carrera, pero no terminan en el primer lugar. Aun así, son aplaudidos, porque en el ciclismo son bien vistos los gregarios, los compañeros de equipo que no lograrán podio en la etapa, pero que ayudarán a que el líder del equipo consiga la victoria.</p>
+                              <p><b>El verdadero trabajo en equipo es fundamental.</b>  En el ciclismo, las pruebas no se pueden ganar si cada compañero no trabaja para el triunfo y así, todos aportan, y todos se sacrifican. Gracias a ti, coequipero de la Misión Oro, porque el aporte y el sacrificio que estás haciendo, nos llevará a la meta.</p>
+                              <p><b>No desfallecer, en medio de las dificultades.</b>  Cuando la sensación de derrota te quiera invadir, mira siempre hacia adelante, hacia la meta que se avecina, y hacia tus compañeros, que ahí están trabajando y pedaleando contigo, para llegar todos al triunfo.</p>
+                              <p><b>Las pequeñas cosas también cuentan.</b> Cada pedaleo es importante. Tu aporte, en el momento justo, es fundamental. Cuando un coequipero está bajo de ánimo y sin fuerzas, tu apoyo y animación es fundamental, tan sólo con un simple gesto, o una breve sonrisa.</p>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-              <!-- Pregunta 4 -->
+               </div>
+               <!-- Pregunta 4 -->
             </div>
             <!-- Second row -->
-    </div>
-  </div>
-    <!-- FAQ section -->
-    <!-- Video section -->
-    <div class="container-fluid green-context video-section">
-      <div class="container">
-        <h2 class="text-white standar-intro"><span class="text-muted">LA</span><br><span class="titulo">RUTA</span></h2>
-        <p class="lead">Baja para ver el proceso</p>
-        <!-- First row -->
-        <div class="row">
-          <!-- Left block -->
-          <div class="col-md-7 show-videos text-justify">
-            <!-- Video #1 -->
-            <div id="video1" class="py-5">
-              <div class="d-sm-block d-md-none text-center">
-                <h3>Primera etapa: <b>13 de noviembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-                <div class="videos1">
-                  <div class="video-content">
-                    <div class="d-none d-md-block">
-                      <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
-                    </div>
-                    <div class="text-right tiras">
-                      <img src="images/tira1.png" alt="Mensaje 1">
-                    </div>
-                    <h4 class="h2">Bienvenido a Misión Oro - Liderando el cambio</h4>
-                    <p>Una iniciativa que transformará y mejorará la manera en que hacemos las cosas en Continental Gold, continuando con la implementación JD Edwards.</p>
-                    <p>Queremos agradecerte por hacer parte de este equipo, una escuadra de primer nivel que con esfuerzo, sacrificio y entrega nos está acercando - pedalazo tras pedalazo - a la línea de meta que será la salida en vivo de nuestro sistema de información para el 4 de febrero de 2019.</p>
-                    <p>Con la implementación de nuestro ERP tendremos un sistema adaptado al tamaño de Continental Gold y su operación futura, asegurando capacidad tecnológica con una herramienta de clase mundial para los procesos de: compras, mantenimiento, financiera e inventarios.</p>
-                    <p>Así mismo fortaleceremos el control interno y la eficiencia de nuestros procesos con el uso de un sistema de información gerencial robusto, mejorando la trazabilidad de la información y el manejo de seguridad por roles.</p>
-                    <div class="row">
-                      <div class="col-sm-12 col-md-6 text-center">
-                        <p><b>Conoce más de la Misión Oro en la siguiente imagen.</b></p>
-                        <a class="btn" href="images/mail_bienvenida.jpg" target="_blank" role="button">Ver imagen</a>
-                      </div>
-                      <div class="col-sm-12 col-md-6 text-center">
-                        <p><b>Conoce el equipo de trabajo de la Misión Oro en la siguiente presentación</b></p>
-                        <a class="btn" href="docs/presentacion_gerencial.pdf" target="_blank" role="button">Ver presentación</a>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <!-- Video #1 -->
-            <!-- Video #2 -->
-            <div id="video2">
-              <div class="d-sm-block d-md-none text-center">
-                <h3>Segunda etapa: <b>19 de noviembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-              <div class="videos2">
-                <div class="video-content">
-                  <div class="d-none d-md-block">
-                    <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
-                  </div>
-                  <div class="text-right tiras">
-                    <img src="images/tira2.png" alt="Mensaje 2">
-                  </div>
-                  <h4 class="h2">¡Un proyecto de todos!</h4>
-                  <p>La Misión Oro es un proyecto de todos y para todos, por eso le contamos a nuestros compañeros cómo vamos en este camino que tiene como meta la salida en vivo de nuestro sistema de información, el 4 de febrero de 2019.</p>
-                  <p>Con este mensaje empezamos a informarle a toda la Compañía cómo estamos trabajando.</p>
-                  <p>Luego de 12 meses de trabajo intenso  en la implementación del sistema de información  JD Edwards para los procesos de compras, inventarios, mantenimiento y finanzas, fue necesario redefinir el diseño del modelo de negocio configurado en la nueva plataforma; esto con el fin de asegurar que cumplimos con los requerimientos normativos y con el objetivo de implementar una solución que consolida y mejora la gestión de la compañía asegurando el control integral del negocio.  Por esta razón la Compañía tomó la decisión de posponer la salida en productivo para el 4 de febrero de 2019.</p>
-                  <p>Esta nueva fase del proyecto está liderada por la Vicepresidencia Financiera a través de Amanda Durán, con un equipo de implementación reforzado, con todas las ganas, la energía y el compromiso para sacar adelante nuestro proyecto, y con el apoyo de la Dirección de la Compañía.</p>
-                  <p>Aseguraremos una implementación exitosa ajustando lo que hace falta, revisando y optimizando los procesos, cumpliendo con el plan de trabajo establecido y trabajando en equipo con todas las áreas, porque este proyecto es de “todos y para todos”.</p>
-                  <p>A través de los diferentes canales de comunicación, seguiremos informando los avances de nuestro proyecto.</p>
-                  <p class="text-center">¡Contamos con el apoyo de <i>TODOS</i>!<br><b>Muchas gracias</b></p>
-                </div>
-              </div>
-            </div>
-            <!-- Video #2 -->
-            <!-- Video #3 -->
-            <div id="video3">
-              <div class="d-sm-block d-md-none text-center" style="padding-top: 90px;">
-                <h3>Tercera etapa: <b>19 de noviembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-              <div class="videos3">
-                  <div class="video-content">
-                    <div class="d-none d-md-block">
-                      <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
-                    </div>
-                    <div class="text-right tiras">
-                      <img src="images/tira3.png" alt="Mensaje 3">
-                    </div>
-                    <h4 class="h2">¡En qué vamos!</h4>
-                    <p>Seguimos pedaleando con orgullo para llegar a nuestra meta: salir en vivo con JD Edwards el 4 de febrero de 2019. Durante esta semana continuaremos.</p>
-                    <p>¡Nuestros grandes ciclistas nos han demostrado que con sacrificio, disciplina, planeación y ganas se superan adversidades y se gana!</p>
-                    <p>En la década de los 80, el ciclismo era el segundo deporte de mayor interés y convocatoria en Europa (el primero era el fútbol). El 16 de julio de 1984 "Lucho Herrera" debutó en el Tour de Francia ganándole a uno de los mejores corredores europeos de ese entonces: el francés Bernand Hinault, quien aunque lo intentó, no pudo seguirle el paso en el ascenso Alpe d’Huez.</p>
-                    <p>Ese día y por primera vez en la historia, un colombiano ganó una etapa de este tour.</p>
-                    <p>Un año después, el sábado 13 de julio de 1985, en Saint Étienne "El Jardinerito de Fusagasugá" con magia, perseverancia, humildad y ganas de triunfar, resumió la fuerza colombiana que nos caracteriza en dos palabras: caer y levantarse.</p>
-                    <p>Durante esta semana ganamos la etapa de montaña así:</p>
-                    <ul>
-                      <li>Finalizamos la fase de construcción del modelo de negocio.</li>
-                      <li>Empezamos los ajustes de la configuración de los módulos.</li>
-                      <li>Iniciamos la validación de todos los procesos con los líderes de cada módulo; para valorar los cambios por el uso del sistema.</li>
-                    </ul>
-                    <p>En esta semana comenzaremos el manejo del cambio en los procesos con las áreas; iniciaremos pruebas del sistema; validaremos el proceso de legalizaciones para simplificarlo y validaremos los cambios en los módulos de compras.</p>
-                    <p>Con el compromiso y pedaleo firme de cada uno lograremos desarrollar todas estas actividades propuestas.</p>
-                    <div class="text-center">
-                      <p><b><em>Para ustedes, nuestros coequiperos de la Misión Oro, les tenemos este mensaje:</em></b></p>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" width="320" height="auto" controls>
-                          <source src="videos/Lucho_Herrera.mov" />
-                        </video>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <!-- Video #3 -->
-            <!-- Video #4 -->
-            <div id="video4">
-              <div class="d-sm-block d-md-none text-center" style="padding-top: 180px;">
-                <h3>Cuarta etapa: <b>26 de noviembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-              <div class="videos4">
-                  <div class="video-content">
-                    <div class="d-none d-md-block">
-                      <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
-                    </div>
-                    <div class="text-right tiras">
-                      <img src="images/tira4.png" alt="Mensaje 4">
-                    </div>
-                    <h4 class="h2">¡Cada vez más cerca!</h4>
-                    <p>Este proceso nos ha demostrado que tenemos <b>voluntad de hierro</b>. La misma voluntad que tiene uno de los grandes ciclistas de nuestras historia: Nairo Quintana, quien a sus 3 años, superó una enfermedad cuyo pronóstico era fatal. Desde ahí comenzó a perfilarse como una leyenda.</p>
-                    <p>Nairo no solo sobrevivió al <i>"tentado de difunto"</i> como lo llaman en Boyacá. Con la convicción de ayudarle a sus padres, se fijó la meta de estudiar y ante la necesidad de recorrer diariamente los 18 kilómetros que lo distanciaban entre el colegio y su casa, ubicada en la loma de la vereda La Concepción en Cómbita - Boyacá, conoció al amor de su vida: La bicicleta. De ahí en adelante su historia se ha convertido en una serie de desafíos que ha superado gracias a su esfuerzo, compromiso, disciplina y <b>voluntad</b>, las mismas cualidades que caracterizan al equipo Misión Oro! </p>
-                    <p>La semana que cerramos cumplimos con <b>voluntad de hierro</b> nuestras metas planteadas, esta semana tenemos etapa de contrarreloj! Cada uno con su objetivo clave:</p>
-                    <ul>
-                      <li>Terminar aprobación de nuevos procesos base de la configuración en JDE.</li>
-                      <li>Ajustar la configuración de módulos y cierre de inconsistencias identificadas.</li>
-                      <li>Definir los casos para pruebas verticales por módulo.</li>
-                      <li>Preparar a los capacitadores.</li>
-                      <li>Terminar interfaz de  nómina.</li>
-                    </ul>
-                    <div class="text-center">
-                      <p><b><em>Para animarlos a continuar con el pedaleo firme que nos caracteriza, les compartimos este inspirador video:</em></b></p>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" width="320" height="auto" controls>
-                          <source src="videos/Nairo_Quintana.mp4" />
-                        </video>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <!-- Video #4 -->
-            <!-- Video #5 -->
-            <div id="video5">
-              <div class="d-sm-block d-md-none text-center">
-                <h3>Quinta etapa: <b>3 de diciembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-              <div class="videos5">
-                  <div class="video-content">
-                    <div class="d-none d-md-block">
-                      <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold"/>
-                    </div>
-                    <div class="text-right tiras">
-                      <img src="images/tira5.png" alt="Mensaje 5">
-                    </div>
-                    <h4 class="h2">¡Seguimos avanzando!</h4>
-                    <p>Los desafíos nos motivan a seguir adelante. No hay nada más placentero que conquistar una colina que parecía difícil y poder decir con determinación: ¡lo conseguimos! Es esta frase la que queremos gritar al final de este proceso y estamos seguros que lo lograremos.</p>
-                    <p>Pero para lograrlo, la preparación constante que hemos iniciado ha sido clave y será aún más importante para la siguientes etapas que vamos a alcanzar.</p>
-                    <p>Esta semana cumplimos una gran etapa a contrarreloj  validando y aprobando los nuevos procesos base de la configuración en JDE, ajustando la configuración de módulos y cierre de inconsistencias identificadas, definiendo los casos para pruebas verticales por módulo y preparando a los capacitadores en el proceso de requisiciones de compra.</p>
-                    <p>Ahora nos encaminamos en una etapa de ruta que va desde el 3 al 21 de diciembre y tenemos refuerzos, al equipo Misión Oro se unen los líderes del equipo EY en la Gerencia del Proyecto, su apoyo será clave para lograr el objetivo y llegar a la meta el 4 de febrero. Esta semana tendremos capacitaciones en Buriticá para el proceso de requisiciones de compra, los líderes de esta etapa son Diego Marín y Luz Adriana Castro. Seguimos pedaleando con buen ritmo para finalizar la interfaz de nómina y construir escenarios de prueba modulares e integrales. Para probar los nuevos modelos en todas sus variantes, orientaremos nuestro esfuerzo en fortalecer nuestras habilidades para el manejo de la plataforma.</p>
-                    <div class="text-center">
-                      <p><b><em>Si alguien sabe de la importancia de entrenar es el ciclista paisa Santiago Botero, y lo sabe porque para llegar a ser uno de los ciclistas destacados mundialmente en etapas de contrarreloj tuvo que capacitarse días y noches enteras. Para todos ustedes, Santiago, les envía este mensaje:</em></b></p>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" width="320" height="auto" controls>
-                          <source src="videos/Santiago_Botero.mp4" />
-                        </video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Video #6 -->
-              <div id="video6">
-                <div class="d-sm-block d-md-none text-center">
-                  <h3>Sexta etapa: <b>10 de diciembre</b></h3>
-                  <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-                </div>
-              <div class="videos6">
-                  <div class="video-content">
-                    <div class="d-none d-md-block">
-                      <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
-                    </div>
-                    <div class="text-right tiras">
-                      <img src="images/tira6.png" alt="Mensaje 6">
-                    </div>
-                    <h4 class="h2">¡Visualizando nuestro objetivo, nada nos detiene!</h4>
-                    <p>Coequiperos de la Misión Oro, queremos felicitarlos por su alto desempeño en esta última etapa recorrida donde iniciamos las capacitaciones de solicitudes de compra en Buriticá y en Medellín, logrando que nuestro equipo conociera el desarrollo de las transacciones en el nuevo sistema. También, se completó satisfactoriamente la interfaz de nómina Kactus-JDE y se terminaron los ajustes de configuraciones base para la preparación y programación de las pruebas verticales de la próxima semana <b>(17 - 20 de Diciembre)</b>.</p>
-                    <p>Esta semana nos encontramos frente a un reto crucial: el desarrollo de las pruebas verticales para los módulos de compras, inventarios, cuentas por pagar, tesorería y contabilidad. Así mismo, para asegurar que todos tenemos clara la estrategia para lograr la etapa de esta semana, todos los coequiperos tendremos una reunión de alineación.</p>
-                    <p>En las pistas de entrenamiento de Buriticá y Medellín, seguimos pedaleando con entusiasmo y preparándonos en las capacitaciones para seguir fortaleciendo nuestro conocimiento en requisiciones, recepciones y cotejo.</p><br><br>
-                    <blockquote class="blockquote text-center">
-                      <p class="mb-0">"La vida es como la bicicleta, hay que pedalear hacia adelante para no perder el equilibrio"</p>
-                      <footer class="blockquote-footer"><cite title="Source Title">Albert Einstein</cite></footer>
-                    </blockquote>
-                    <p><b><i>... y no importa cuánto hayas avanzado, si dejas de pedalear te caes.</i></b></p>
-                  </div>
-              </div>
-            </div>
-            <!-- Video #6 -->
-            <!-- Video #7 -->
-            <div id="video7">
-              <div class="d-sm-block d-md-none text-center">
-                <h3>Septima etapa: <b>17 de diciembre</b></h3>
-                <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-              </div>
-            <div class="videos7">
-                <div class="video-content">
-                  <div class="d-none d-md-block">
-                    <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
-                  </div>
-                  <div class="text-right tiras">
-                    <img src="images/tira7.png" alt="Mensaje 7">
-                  </div>
-                  <h4 class="h2">Avanzamos firmes hacia la meta</h4>
-                  <p>Para salir victoriosos en la Misión Oro, hay que ganar cada etapa e ir sobrepasando pruebas paso a paso. Mejor dicho: pedalazo a pedalazo. Por eso, durante la semana pasada estuvimos haciendo pruebas con los equipos de Tesorería, Cuentas por Pagar, Compras, Inventarios, Mantenimiento, Nómina, Comercio Exterior y Terceros; validando el funcionamiento adecuado de las configuraciones, transacciones y desarrollos. Esta carrera ha sido difícil, tuvimos caídas pero nos levantamos con más ganas para llegar a la meta, identificamos oportunidades de mejora y todos los equipos estamos comprometidos con el objetivo.  Hoy desde la Dirección de la Compañía queremos agradecer al equipo Misión Oro su compromiso, profesionalismo y  temple ¡Muchas gracias, estamos demostrando de qué estamos hechos!</p>
-                  <p>¿Sabías que un ciclista de alto rendimiento nunca entrena solo? Entrenar en solitario es más aburrido y difícil, por eso los profesionales del pedal buscan salir siempre con un equipo que exija sus capacidades al máximo. Rigoberto Urán, por ejemplo, siempre entrena con “Wicho”, un amigo que conoció en el colegio y el cual lo acompaña en su rutina de preparación para afrontar una carrera importante.</p>
-                  <p>Por ello, tanto capacitarse como ir acompañado de un equipo igual de preparado, tienen la misma importancia. En esta nueva etapa debemos trabajar como equipo en nuestras pruebas verticales de Tesorería, Impuestos, Activos Fijos y Contabilidad, para lo cual necesitamos tener la información lista, el tiempo y la disponibilidad para desarrollarlas. Además, continuaremos con las capacitaciones relacionadas con recepciones, cotejos, compras autogestionadas y factura directa.</p>
-                  <blockquote class="blockquote text-center">
-                    <p class="mb-0">"Pedalea mucho o poco, largo o corto. Pero pedalea"</p>
-                    <footer class="blockquote-footer"><cite title="Source Title">Eddy Merckx</cite></footer>
-                  </blockquote>
-                </div>
-            </div>
-          </div>
-          <!-- Video #7 -->
-          <!-- Video #8 -->
-          <div id="video8">
-            <div class="d-sm-block d-md-none text-center">
-              <h3>Octava etapa: <b>24 de diciembre</b></h3>
-              <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-            </div>
-          <div class="videos8">
-              <div class="video-content">
-                <div class="d-none d-md-block">
-                  <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
-                </div>
-                <div class="text-right tiras">
-                  <img src="images/tira8.png" alt="Mensaje 8">
-                </div>
-                <h4 class="h2">¡Venceremos los límites!</h4>
-                <p>¡Equipo, cada vez estamos más cerca de la meta! El esfuerzo y compromiso de cada integrante de la escuadra durante el recorrido inicial de la carrera muy pronto será recompensado al cruzar los últimos metros de la <b>Misión Oro</b>. Allí, en la meta, todos levantaremos las manos en señal de victoria por haber logrado cumplir los retos trazados. Por el momento, queremos destacar el desempeño durante la etapa que recorrimos la semana pasada:</p>
-                <ul>
-                  <li>La ejecución de las pruebas verticales en Tesorería, Cuentas por pagar, Activos Fijos, Impuestos, Contabilidad, Terceros, Compras, Mantenimiento e Inventarios.</li>
-                  <li>La validación del funcionamiento adecuado de las configuraciones, transacciones, desarrollos, etc.; y la identificación de los temas a corregir.</li>
-                  <li>Resaltamos el pedaleo intenso de nuestros gregarios del área de Datos, quienes avanzaron con paso firme en la validación de la estructura de cuentas que permitirá agilizar la carga de datos. ¡Gran trabajo equipo! Resaltamos también el compromiso, energía y dinamismo de todos los usuarios claves que participaron en las pruebas. Alentamos al equipo del proyecto de construcción a pedalear duro esa milla extra para terminar las pruebas. Y recibimos al equipo de IT, clave para que lleguemos a la meta el 4 de febrero.</li>
-                </ul>
-                <p>Durante este recorrido seguiremos fortaleciendo nuestro conocimiento para saber cómo ejecutar estas operaciones en el futuro, en las capacitaciones de recepciones, solicitudes y cotejos.</p>
-                <p>Como en toda carrera de largo aliento, hay momentos de reflexión y estrategia para marcar mejores tiempos en la misma, por eso, en esta nueva etapa realizaremos los ajustes requeridos sobre los hallazgos durante las pruebas; iniciaremos la carga de saldos en ambientes productivos y continuaremos con las capacitaciones relacionadas con cotejos, compras autogestionadas y factura directa.</p>
-                <p>¡La meta está cerca, mantengamos el ritmo!</p><br>
-                <div class="text-center">
-                  <p><b><em>Para todos ustedes coequiperos de la Misión Oro<br>¡Feliz Navidad!</em></b></p><br>
-                  <p><b>Conoce el informe de las pruebas para que revisen nuestro recorrido</b></p>
-                  <a class="btn" href="docs/status_pruebas_proyecto_JD_v2.pdf" target="_blank" role="button">Descargar</a>
-                </div>
-              </div>
-          </div>
-        </div>
-        <!-- Video #8 -->
-        <!-- Video #9 -->
-        <div id="video9">
-          <div class="d-sm-block d-md-none text-center">
-            <h3>Novena etapa: <b>31 de diciembre</b></h3>
-            <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-          </div>
-        <div class="videos9">
-            <div class="video-content">
-              <div class="d-none d-md-block">
-                <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
-              </div>
-              <div class="text-right tiras">
-                <img src="images/tira9.png" alt="Mensaje 9">
-              </div>
-              <h4 class="h2">¡FELIZ AÑO CAMPEONES!</h4>
-              <p>En este momento del año tenemos claro que no importan las caídas porque ya sabemos que hacen parte del proceso. Lo que realmente importa son las veces que nos hemos puesto de pie para llegar a la meta y hacer que esta <strong>Misión Oro</strong> se convierta en una realidad.</p>
-              <p>Como en el ciclismo de ruta, la superación, el compromiso y el trabajo en equipo están siendo la clave para avanzar con paso firme hacia la meta, por eso agradecemos  el compromiso de todos durante esta ardua carrera. Hemos sido testigos de los obstáculos que se atravesaron durante el camino y la forma en que ustedes los superaron gracias a su determinación y esfuerzo. La Dirección de la Compañía les envía un mensaje de aliento para continuar trabajando sin bajar el ritmo para que este Proyecto sea una realidad y que su implementación controlada mejore la productividad y asegure la operación de nuestra Empresa con los procesos y controles que han sido establecidos.</p>
-              <p>¡2019 será un año para lograr objetivos y empezaremos con la implementación de JDE!</p>
-              <div class="text-center">
-                <p><b><em>¡FELIZ AÑO!</em></b></p>
-              </div>
-            </div>
-        </div>
+         </div>
       </div>
-      <!-- Video #9 -->
-      <!-- Video #10 -->
-      <div id="video10">
-        <div class="d-sm-block d-md-none text-center">
-          <h3>Decima etapa: <b>8 de enero</b></h3>
-          <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-        </div>
-      <div class="videos10">
-          <div class="video-content">
-            <div class="d-none d-md-block">
-              <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
+      <!-- FAQ section -->
+      <!-- Video section -->
+      <div class="container-fluid green-context video-section">
+         <div class="container">
+            <h2 class="text-white standar-intro"><span class="text-muted">LA</span><br><span class="titulo">RUTA</span></h2>
+            <p class="lead">Baja para ver el proceso</p>
+            <!-- First row -->
+            <div class="row">
+               <!-- Left block -->
+               <div class="col-md-7 show-videos text-justify">
+                  <!-- Video #1 -->
+                  <div id="video1" class="py-5">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Primera etapa: <b>13 de noviembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos1">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira1.png" alt="Mensaje 1">
+                           </div>
+                           <h4 class="h2">Bienvenido a Misión Oro - Liderando el cambio</h4>
+                           <p>Una iniciativa que transformará y mejorará la manera en que hacemos las cosas en Continental Gold, continuando con la implementación JD Edwards.</p>
+                           <p>Queremos agradecerte por hacer parte de este equipo, una escuadra de primer nivel que con esfuerzo, sacrificio y entrega nos está acercando - pedalazo tras pedalazo - a la línea de meta que será la salida en vivo de nuestro sistema de información para el 4 de febrero de 2019.</p>
+                           <p>Con la implementación de nuestro ERP tendremos un sistema adaptado al tamaño de Continental Gold y su operación futura, asegurando capacidad tecnológica con una herramienta de clase mundial para los procesos de: compras, mantenimiento, financiera e inventarios.</p>
+                           <p>Así mismo fortaleceremos el control interno y la eficiencia de nuestros procesos con el uso de un sistema de información gerencial robusto, mejorando la trazabilidad de la información y el manejo de seguridad por roles.</p>
+                           <div class="row">
+                              <div class="col-sm-12 col-md-6 text-center">
+                                 <p><b>Conoce más de la Misión Oro en la siguiente imagen.</b></p>
+                                 <a class="btn" href="images/mail_bienvenida.jpg" target="_blank" role="button">Ver imagen</a>
+                              </div>
+                              <div class="col-sm-12 col-md-6 text-center">
+                                 <p><b>Conoce el equipo de trabajo de la Misión Oro en la siguiente presentación</b></p>
+                                 <a class="btn" href="docs/presentacion_gerencial.pdf" target="_blank" role="button">Ver presentación</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #1 -->
+                  <!-- Video #2 -->
+                  <div id="video2">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Segunda etapa: <b>19 de noviembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos2">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira2.png" alt="Mensaje 2">
+                           </div>
+                           <h4 class="h2">¡Un proyecto de todos!</h4>
+                           <p>La Misión Oro es un proyecto de todos y para todos, por eso le contamos a nuestros compañeros cómo vamos en este camino que tiene como meta la salida en vivo de nuestro sistema de información, el 4 de febrero de 2019.</p>
+                           <p>Con este mensaje empezamos a informarle a toda la Compañía cómo estamos trabajando.</p>
+                           <p>Luego de 12 meses de trabajo intenso  en la implementación del sistema de información  JD Edwards para los procesos de compras, inventarios, mantenimiento y finanzas, fue necesario redefinir el diseño del modelo de negocio configurado en la nueva plataforma; esto con el fin de asegurar que cumplimos con los requerimientos normativos y con el objetivo de implementar una solución que consolida y mejora la gestión de la compañía asegurando el control integral del negocio.  Por esta razón la Compañía tomó la decisión de posponer la salida en productivo para el 4 de febrero de 2019.</p>
+                           <p>Esta nueva fase del proyecto está liderada por la Vicepresidencia Financiera a través de Amanda Durán, con un equipo de implementación reforzado, con todas las ganas, la energía y el compromiso para sacar adelante nuestro proyecto, y con el apoyo de la Dirección de la Compañía.</p>
+                           <p>Aseguraremos una implementación exitosa ajustando lo que hace falta, revisando y optimizando los procesos, cumpliendo con el plan de trabajo establecido y trabajando en equipo con todas las áreas, porque este proyecto es de “todos y para todos”.</p>
+                           <p>A través de los diferentes canales de comunicación, seguiremos informando los avances de nuestro proyecto.</p>
+                           <p class="text-center">¡Contamos con el apoyo de <i>TODOS</i>!<br><b>Muchas gracias</b></p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #2 -->
+                  <!-- Video #3 -->
+                  <div id="video3">
+                     <div class="d-sm-block d-md-none text-center" style="padding-top: 90px;">
+                        <h3>Tercera etapa: <b>19 de noviembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos3">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira3.png" alt="Mensaje 3">
+                           </div>
+                           <h4 class="h2">¡En qué vamos!</h4>
+                           <p>Seguimos pedaleando con orgullo para llegar a nuestra meta: salir en vivo con JD Edwards el 4 de febrero de 2019. Durante esta semana continuaremos.</p>
+                           <p>¡Nuestros grandes ciclistas nos han demostrado que con sacrificio, disciplina, planeación y ganas se superan adversidades y se gana!</p>
+                           <p>En la década de los 80, el ciclismo era el segundo deporte de mayor interés y convocatoria en Europa (el primero era el fútbol). El 16 de julio de 1984 "Lucho Herrera" debutó en el Tour de Francia ganándole a uno de los mejores corredores europeos de ese entonces: el francés Bernand Hinault, quien aunque lo intentó, no pudo seguirle el paso en el ascenso Alpe d’Huez.</p>
+                           <p>Ese día y por primera vez en la historia, un colombiano ganó una etapa de este tour.</p>
+                           <p>Un año después, el sábado 13 de julio de 1985, en Saint Étienne "El Jardinerito de Fusagasugá" con magia, perseverancia, humildad y ganas de triunfar, resumió la fuerza colombiana que nos caracteriza en dos palabras: caer y levantarse.</p>
+                           <p>Durante esta semana ganamos la etapa de montaña así:</p>
+                           <ul>
+                              <li>Finalizamos la fase de construcción del modelo de negocio.</li>
+                              <li>Empezamos los ajustes de la configuración de los módulos.</li>
+                              <li>Iniciamos la validación de todos los procesos con los líderes de cada módulo; para valorar los cambios por el uso del sistema.</li>
+                           </ul>
+                           <p>En esta semana comenzaremos el manejo del cambio en los procesos con las áreas; iniciaremos pruebas del sistema; validaremos el proceso de legalizaciones para simplificarlo y validaremos los cambios en los módulos de compras.</p>
+                           <p>Con el compromiso y pedaleo firme de cada uno lograremos desarrollar todas estas actividades propuestas.</p>
+                           <div class="text-center">
+                              <p><b><em>Para ustedes, nuestros coequiperos de la Misión Oro, les tenemos este mensaje:</em></b></p>
+                              <div class="embed-responsive embed-responsive-16by9">
+                                 <video class="embed-responsive-item" width="320" height="auto" controls>
+                                    <source src="videos/Lucho_Herrera.mov" />
+                                 </video>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #3 -->
+                  <!-- Video #4 -->
+                  <div id="video4">
+                     <div class="d-sm-block d-md-none text-center" style="padding-top: 180px;">
+                        <h3>Cuarta etapa: <b>26 de noviembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos4">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira4.png" alt="Mensaje 4">
+                           </div>
+                           <h4 class="h2">¡Cada vez más cerca!</h4>
+                           <p>Este proceso nos ha demostrado que tenemos <b>voluntad de hierro</b>. La misma voluntad que tiene uno de los grandes ciclistas de nuestras historia: Nairo Quintana, quien a sus 3 años, superó una enfermedad cuyo pronóstico era fatal. Desde ahí comenzó a perfilarse como una leyenda.</p>
+                           <p>Nairo no solo sobrevivió al <i>"tentado de difunto"</i> como lo llaman en Boyacá. Con la convicción de ayudarle a sus padres, se fijó la meta de estudiar y ante la necesidad de recorrer diariamente los 18 kilómetros que lo distanciaban entre el colegio y su casa, ubicada en la loma de la vereda La Concepción en Cómbita - Boyacá, conoció al amor de su vida: La bicicleta. De ahí en adelante su historia se ha convertido en una serie de desafíos que ha superado gracias a su esfuerzo, compromiso, disciplina y <b>voluntad</b>, las mismas cualidades que caracterizan al equipo Misión Oro! </p>
+                           <p>La semana que cerramos cumplimos con <b>voluntad de hierro</b> nuestras metas planteadas, esta semana tenemos etapa de contrarreloj! Cada uno con su objetivo clave:</p>
+                           <ul>
+                              <li>Terminar aprobación de nuevos procesos base de la configuración en JDE.</li>
+                              <li>Ajustar la configuración de módulos y cierre de inconsistencias identificadas.</li>
+                              <li>Definir los casos para pruebas verticales por módulo.</li>
+                              <li>Preparar a los capacitadores.</li>
+                              <li>Terminar interfaz de  nómina.</li>
+                           </ul>
+                           <div class="text-center">
+                              <p><b><em>Para animarlos a continuar con el pedaleo firme que nos caracteriza, les compartimos este inspirador video:</em></b></p>
+                              <div class="embed-responsive embed-responsive-16by9">
+                                 <video class="embed-responsive-item" width="320" height="auto" controls>
+                                    <source src="videos/Nairo_Quintana.mp4" />
+                                 </video>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #4 -->
+                  <!-- Video #5 -->
+                  <div id="video5">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Quinta etapa: <b>3 de diciembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos5">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold"/>
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira5.png" alt="Mensaje 5">
+                           </div>
+                           <h4 class="h2">¡Seguimos avanzando!</h4>
+                           <p>Los desafíos nos motivan a seguir adelante. No hay nada más placentero que conquistar una colina que parecía difícil y poder decir con determinación: ¡lo conseguimos! Es esta frase la que queremos gritar al final de este proceso y estamos seguros que lo lograremos.</p>
+                           <p>Pero para lograrlo, la preparación constante que hemos iniciado ha sido clave y será aún más importante para la siguientes etapas que vamos a alcanzar.</p>
+                           <p>Esta semana cumplimos una gran etapa a contrarreloj  validando y aprobando los nuevos procesos base de la configuración en JDE, ajustando la configuración de módulos y cierre de inconsistencias identificadas, definiendo los casos para pruebas verticales por módulo y preparando a los capacitadores en el proceso de requisiciones de compra.</p>
+                           <p>Ahora nos encaminamos en una etapa de ruta que va desde el 3 al 21 de diciembre y tenemos refuerzos, al equipo Misión Oro se unen los líderes del equipo EY en la Gerencia del Proyecto, su apoyo será clave para lograr el objetivo y llegar a la meta el 4 de febrero. Esta semana tendremos capacitaciones en Buriticá para el proceso de requisiciones de compra, los líderes de esta etapa son Diego Marín y Luz Adriana Castro. Seguimos pedaleando con buen ritmo para finalizar la interfaz de nómina y construir escenarios de prueba modulares e integrales. Para probar los nuevos modelos en todas sus variantes, orientaremos nuestro esfuerzo en fortalecer nuestras habilidades para el manejo de la plataforma.</p>
+                           <div class="text-center">
+                              <p><b><em>Si alguien sabe de la importancia de entrenar es el ciclista paisa Santiago Botero, y lo sabe porque para llegar a ser uno de los ciclistas destacados mundialmente en etapas de contrarreloj tuvo que capacitarse días y noches enteras. Para todos ustedes, Santiago, les envía este mensaje:</em></b></p>
+                              <div class="embed-responsive embed-responsive-16by9">
+                                 <video class="embed-responsive-item" width="320" height="auto" controls>
+                                    <source src="videos/Santiago_Botero.mp4" />
+                                 </video>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #6 -->
+                  <div id="video6">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Sexta etapa: <b>10 de diciembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos6">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira6.png" alt="Mensaje 6">
+                           </div>
+                           <h4 class="h2">¡Visualizando nuestro objetivo, nada nos detiene!</h4>
+                           <p>Coequiperos de la Misión Oro, queremos felicitarlos por su alto desempeño en esta última etapa recorrida donde iniciamos las capacitaciones de solicitudes de compra en Buriticá y en Medellín, logrando que nuestro equipo conociera el desarrollo de las transacciones en el nuevo sistema. También, se completó satisfactoriamente la interfaz de nómina Kactus-JDE y se terminaron los ajustes de configuraciones base para la preparación y programación de las pruebas verticales de la próxima semana <b>(17 - 20 de Diciembre)</b>.</p>
+                           <p>Esta semana nos encontramos frente a un reto crucial: el desarrollo de las pruebas verticales para los módulos de compras, inventarios, cuentas por pagar, tesorería y contabilidad. Así mismo, para asegurar que todos tenemos clara la estrategia para lograr la etapa de esta semana, todos los coequiperos tendremos una reunión de alineación.</p>
+                           <p>En las pistas de entrenamiento de Buriticá y Medellín, seguimos pedaleando con entusiasmo y preparándonos en las capacitaciones para seguir fortaleciendo nuestro conocimiento en requisiciones, recepciones y cotejo.</p>
+                           <br><br>
+                           <blockquote class="blockquote text-center">
+                              <p class="mb-0">"La vida es como la bicicleta, hay que pedalear hacia adelante para no perder el equilibrio"</p>
+                              <footer class="blockquote-footer"><cite title="Source Title">Albert Einstein</cite></footer>
+                           </blockquote>
+                           <p><b><i>... y no importa cuánto hayas avanzado, si dejas de pedalear te caes.</i></b></p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #6 -->
+                  <!-- Video #7 -->
+                  <div id="video7">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Septima etapa: <b>17 de diciembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos7">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira7.png" alt="Mensaje 7">
+                           </div>
+                           <h4 class="h2">Avanzamos firmes hacia la meta</h4>
+                           <p>Para salir victoriosos en la Misión Oro, hay que ganar cada etapa e ir sobrepasando pruebas paso a paso. Mejor dicho: pedalazo a pedalazo. Por eso, durante la semana pasada estuvimos haciendo pruebas con los equipos de Tesorería, Cuentas por Pagar, Compras, Inventarios, Mantenimiento, Nómina, Comercio Exterior y Terceros; validando el funcionamiento adecuado de las configuraciones, transacciones y desarrollos. Esta carrera ha sido difícil, tuvimos caídas pero nos levantamos con más ganas para llegar a la meta, identificamos oportunidades de mejora y todos los equipos estamos comprometidos con el objetivo.  Hoy desde la Dirección de la Compañía queremos agradecer al equipo Misión Oro su compromiso, profesionalismo y  temple ¡Muchas gracias, estamos demostrando de qué estamos hechos!</p>
+                           <p>¿Sabías que un ciclista de alto rendimiento nunca entrena solo? Entrenar en solitario es más aburrido y difícil, por eso los profesionales del pedal buscan salir siempre con un equipo que exija sus capacidades al máximo. Rigoberto Urán, por ejemplo, siempre entrena con “Wicho”, un amigo que conoció en el colegio y el cual lo acompaña en su rutina de preparación para afrontar una carrera importante.</p>
+                           <p>Por ello, tanto capacitarse como ir acompañado de un equipo igual de preparado, tienen la misma importancia. En esta nueva etapa debemos trabajar como equipo en nuestras pruebas verticales de Tesorería, Impuestos, Activos Fijos y Contabilidad, para lo cual necesitamos tener la información lista, el tiempo y la disponibilidad para desarrollarlas. Además, continuaremos con las capacitaciones relacionadas con recepciones, cotejos, compras autogestionadas y factura directa.</p>
+                           <blockquote class="blockquote text-center">
+                              <p class="mb-0">"Pedalea mucho o poco, largo o corto. Pero pedalea"</p>
+                              <footer class="blockquote-footer"><cite title="Source Title">Eddy Merckx</cite></footer>
+                           </blockquote>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #7 -->
+                  <!-- Video #8 -->
+                  <div id="video8">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Octava etapa: <b>24 de diciembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos8">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira8.png" alt="Mensaje 8">
+                           </div>
+                           <h4 class="h2">¡Venceremos los límites!</h4>
+                           <p>¡Equipo, cada vez estamos más cerca de la meta! El esfuerzo y compromiso de cada integrante de la escuadra durante el recorrido inicial de la carrera muy pronto será recompensado al cruzar los últimos metros de la <b>Misión Oro</b>. Allí, en la meta, todos levantaremos las manos en señal de victoria por haber logrado cumplir los retos trazados. Por el momento, queremos destacar el desempeño durante la etapa que recorrimos la semana pasada:</p>
+                           <ul>
+                              <li>La ejecución de las pruebas verticales en Tesorería, Cuentas por pagar, Activos Fijos, Impuestos, Contabilidad, Terceros, Compras, Mantenimiento e Inventarios.</li>
+                              <li>La validación del funcionamiento adecuado de las configuraciones, transacciones, desarrollos, etc.; y la identificación de los temas a corregir.</li>
+                              <li>Resaltamos el pedaleo intenso de nuestros gregarios del área de Datos, quienes avanzaron con paso firme en la validación de la estructura de cuentas que permitirá agilizar la carga de datos. ¡Gran trabajo equipo! Resaltamos también el compromiso, energía y dinamismo de todos los usuarios claves que participaron en las pruebas. Alentamos al equipo del proyecto de construcción a pedalear duro esa milla extra para terminar las pruebas. Y recibimos al equipo de IT, clave para que lleguemos a la meta el 4 de febrero.</li>
+                           </ul>
+                           <p>Durante este recorrido seguiremos fortaleciendo nuestro conocimiento para saber cómo ejecutar estas operaciones en el futuro, en las capacitaciones de recepciones, solicitudes y cotejos.</p>
+                           <p>Como en toda carrera de largo aliento, hay momentos de reflexión y estrategia para marcar mejores tiempos en la misma, por eso, en esta nueva etapa realizaremos los ajustes requeridos sobre los hallazgos durante las pruebas; iniciaremos la carga de saldos en ambientes productivos y continuaremos con las capacitaciones relacionadas con cotejos, compras autogestionadas y factura directa.</p>
+                           <p>¡La meta está cerca, mantengamos el ritmo!</p>
+                           <br>
+                           <div class="text-center">
+                              <p><b><em>Para todos ustedes coequiperos de la Misión Oro<br>¡Feliz Navidad!</em></b></p>
+                              <br>
+                              <p><b>Conoce el informe de las pruebas para que revisen nuestro recorrido</b></p>
+                              <a class="btn" href="docs/status_pruebas_proyecto_JD_v2.pdf" target="_blank" role="button">Descargar</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #8 -->
+                  <!-- Video #9 -->
+                  <div id="video9">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Novena etapa: <b>31 de diciembre</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos9">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira9.png" alt="Mensaje 9">
+                           </div>
+                           <h4 class="h2">¡FELIZ AÑO CAMPEONES!</h4>
+                           <p>En este momento del año tenemos claro que no importan las caídas porque ya sabemos que hacen parte del proceso. Lo que realmente importa son las veces que nos hemos puesto de pie para llegar a la meta y hacer que esta <strong>Misión Oro</strong> se convierta en una realidad.</p>
+                           <p>Como en el ciclismo de ruta, la superación, el compromiso y el trabajo en equipo están siendo la clave para avanzar con paso firme hacia la meta, por eso agradecemos  el compromiso de todos durante esta ardua carrera. Hemos sido testigos de los obstáculos que se atravesaron durante el camino y la forma en que ustedes los superaron gracias a su determinación y esfuerzo. La Dirección de la Compañía les envía un mensaje de aliento para continuar trabajando sin bajar el ritmo para que este Proyecto sea una realidad y que su implementación controlada mejore la productividad y asegure la operación de nuestra Empresa con los procesos y controles que han sido establecidos.</p>
+                           <p>¡2019 será un año para lograr objetivos y empezaremos con la implementación de JDE!</p>
+                           <div class="text-center">
+                              <p><b><em>¡FELIZ AÑO!</em></b></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #9 -->
+                  <!-- Video #10 -->
+                  <div id="video10">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Decima etapa: <b>8 de enero</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos10">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira10.png" alt="Mensaje 10">
+                           </div>
+                           <h4 class="h2">Nuevo año, nuevos objetivos por cumplir ¿Estás preparado?</h4>
+                           <p>Equipo, después de hacer una parada estratégica con la llegada de un nuevo año, es momento de inflar las llantas de la bici, llenar la caramañola y ponerse la pinta bicicletera para recibir enero pedaleando con toda. Sí señoras y señores del Team Misión Oro, entramos en una nueva, y no cualquier etapa… ya estamos listos para la contrarreloj en equipos. El tiempo lo es todo en esta etapa, por eso, debemos estar sincronizados mental y físicamente para entregar los pedalazos extras que significarán la victoria que tanto hemos buscado durante toda la Misión Oro. Enero será un mes lleno de retos, donde estaremos afinando nuestras habilidades de ruta y estaremos trabajando en:</p>
+                           <ul>
+                              <li>Capacitaciones a usuarios finales de compras y finanzas</li>
+                              <li>Capacitaciones de funcionalidades críticas de la Compañía</li>
+                              <li>Finalización de pruebas unitarias</li>
+                              <li>Preparación para pruebas integrales</li>
+                              <li>Preparación del cierre de SIESA para migrar la información y tener el sistema JDE funcionando</li>
+                           </ul>
+                           <p>Esperamos que la  llegada de un nuevo año signifique un nuevo aliento para enfrentar los retos y propósitos que nos depara el 2019 en la ruta hacia el éxito. ¿Preparados?, ¿listos?... sigamos con el impulso, y vamos por el triunfo que nos pertenece.</p>
+                           <blockquote class="blockquote text-center">
+                              <p class="mb-0">"El entrenamiento debe de ser sistemático, es decir, meticuloso, regular y organizado"</p>
+                              <footer class="blockquote-footer"><cite title="Source Title">Connie Carpenter</cite></footer>
+                           </blockquote>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #10 -->
+                  <!-- Video #11 -->
+                  <div id="video11">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Undecima etapa: <b>14 de enero</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos11">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira11.png" alt="Mensaje 11">
+                           </div>
+                           <h4 class="h2">¡Vamos equipo, la gloria es nuestra!</h4>
+                           <p>Han sido semanas muy intensas y en algunos de nosotros ya se evidencia la fatiga, ¡pero ya vemos la meta cerca! Pronto todo nuestro esfuerzo será recompensado cuando culminemos la Misión Oro y comencemos otro nuevo reto, que con toda seguridad alcanzaremos con éxito.</p>
+                           <p>Equipo, estamos haciendo historia en Continental Gold, demostrando de qué estamos hechos y el orgullo que nos produce este proyecto.</p>
+                           <p>Esta semana tenemos una nueva etapa donde realizaremos las siguientes actividades: </p>
+                           <ul>
+                              <li>Ejecución de las pruebas integrales para revisar el sistema en procesos de negocio completos: desde la planeación financiera, las compras hasta el pago, desde el registro hasta los reportes (finanzas), nómina y desde la adquisición del activo hasta su bajo.</li>
+                              <li>Ajustes requeridos sobre los errores identificados durante las pruebas integrales.</li>
+                              <li>Continuar con la carga de saldos y datos en ambientes productivos.</li>
+                              <li>Continuar con las capacitaciones a los usuarios finales (finanzas, compras e inventarios), capacitaciones a la mesa de servicio sobre los incidentes de JDE y finalizar las capacitaciones de masa: Cotejos, Compras y Factura Directa.</li>
+                              <li>Continuar con en el fortalecimiento del modelo de soporte para la salida en vivo del sistema de información y el esquema de seguridad de JDE.</li>
+                              <li>Preparar el cierre contable y financiero de enero, el cual será anticipado con el fin de validar las bases de datos que se cargarán en JDE.  Comunicar adecuadamente a los proveedores, aliados y a la organización en general para que ajusten sus actividades y procesos de acuerdo con las fechas establecidas.</li>
+                           </ul>
+                           <p>Coequiperos, durante esta misión su trabajo ha sido fundamental para alcanzar los resultados y aprender muchas enseñanzas que nos ha dejado este proceso. Hoy no solo somos un equipo más fuerte, también, con cada pedalazo, hemos crecido como profesionales y seres humanos. Cada día, como los grandes ciclistas, nos hemos superado. Un ejemplo perfecto de constancia y determinación es Santiago Botero, gloria del ciclismo colombiano quien, especialmente para ustedes, les tiene este mensaje:</p>
+                           <div class="embed-responsive embed-responsive-16by9">
+                              <video class="embed-responsive-item" width="320" height="auto" controls>
+                                 <source src="videos/mision-oro-1.mp4" />
+                              </video>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #11 -->
+                  <!-- Video #12 -->
+                  <div id="video12">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Doceava etapa: <b>18 de enero</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos12">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira12.png" alt="Mensaje 12">
+                           </div>
+                           <h4 class="h2">“No son los golpes ni las caídas las que hacen fracasar al hombre; sino su falta de voluntad para levantarse y seguir adelante."</h4>
+                           <p>En el ciclismo cualquier participante está propenso a caerse. Pero si hay algo que llena sus triunfos de gran satisfacción es poder superar las adversidades. Hoy ustedes, integrantes del equipo Misión Oro nos han enseñado cómo levantarse, trabajar duro y como equipo empezar a ganar etapas. Al estar próximos a la meta, podrán probar la gloria y recordarán esos episodios de adversidad como un aprendizaje de oro para los próximos retos.</p>
+                           <p>La resiliencia es la capacidad de los seres humanos para adaptarse positivamente a situaciones adversas y hoy Santiago Botero nos cuenta su ejemplo de cómo el ser resiliente fue trascendental en muchos momentos de su carrera como ciclista, en los que a pesar de enfrentarse a momentos duros, la pujanza y las ganas de salir adelante lo impulsaron para lograr el éxito.</p>
+                           <div class="text-center">
+                              <p><b><em>¡Sigan adelante!, pronto harán historia en la compañía...</em></b></p>
+                           </div>
+                           <div class="embed-responsive embed-responsive-16by9">
+                              <video class="embed-responsive-item" width="320" height="auto" controls>
+                                 <source src="videos/mision-oro-2.mp4" />
+                              </video>
+                           </div>
+                           <h5 class="text-left mt-4">Grandes cambios con JDE</h5>
+                           <div class="embed-responsive embed-responsive-16by9">
+                              <video class="embed-responsive-item" width="320" height="auto" controls>
+                                 <source src="videos/capsula-jd-1.mp4" />
+                              </video>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #12 -->
+                  <!-- Video #13 -->
+                  <div id="video13">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Treceava etapa: <b>21 de enero</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videos13">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira13.png" alt="Mensaje 13">
+                           </div>
+                           <h4 class="h2">¡Integrados llegamos más lejos!</h4>
+                           <p>Una nueva etapa se nos avecina, en nuestra misión oro. Cada vez está más cerca la meta final. El recorrido ha sido duro, pero hay algo que nos hace olvidar el cansancio y continuar la marcha. Ese algo es la integración.  En efecto, nos hemos compenetrado como equipo porque cada uno se ha convertido en un referente para una actividad concreta, para una tarea, para una responsabilidad, que lo hace indispensable y líder. Y eso nos ha permitido articular tanto el recorrido, como las relaciones y tomar conciencia de que el todo es más que la suma de las partes. Que integrados llegamos más lejos, vamos hacia el mismo lado y trabajamos mejor por el mismo propósito, cumpliendo de mejor manera nuestra misión.</p>
+                           <p>Esa integración solo es posible porque también hemos fortalecido otro aspecto: la comunicación. Ese dinamismo que nos permite acercarnos, coordinarnos, comprendernos y expresar todo aquello que nos hará cumplir todo nuestro recorrido.</p>
+                           <p>Esto hace que estemos entusiasmados con la nueva etapa, que se desarrollará la semana del 21 al 25 de enero. También lograremos sortear con éxito las metas volantes de la misma:</p>
+                           <ul>
+                             <li>Cierre del sistema de información SIESA.</li>
+                             <li>Cierres de las actividades de compras y finanzas en el sistema de información SIESA.</li>
+                             <li>Seguimiento y ejecución al plan de cut over para la salida en vivo, tanto de los asuntos funcionales como técnicos.</li>
+                             <li>Finalización de capacitaciones del equipo de compras y logística.</li>
+                             <li>Publicación de videos de los cambios generados en los procesos dada la implementación de JDE.</li>
+                           </ul>
+                           <p>Mucho ánimo para lo que se avecina. La familia de Continental Gold está orgullosa de ustedes, y esperando ansiosamente que culminen esa nueva etapa, para otorgarles el reconocimiento que se merecen, para que todos continuemos haciendo realidad la minería moderna que nos identifica.</p>
+                           <div class="embed-responsive embed-responsive-16by9">
+                              <video class="embed-responsive-item" width="320" height="auto" controls>
+                                 <source src="videos/mision-oro-3.mp4" />
+                              </video>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video #13 -->
+               </div>
+               <!-- Left block -->
+               <!-- Right block -->
+               <div class="col-5 d-none d-md-block text-center">
+                  <div class="road">
+                     <img class="d-none d-xl-block" src="images/road.png" height="100.7%" >
+                     <img class="d-none d-lg-block d-xl-none" src="images/road-lg.png" style="height: 100.5%; padding-bottom: 30px;">
+                     <img class="d-none d-md-block d-lg-none" src="images/road-md.png" height="61%">
+                     <img class="d-none d-md-block d-lg-none" src="images/road-md2.png" style="top: 61%; left: 28px; height: 6610px;">
+                     <div class="cicla">
+                        <img src="images/guy.png" alt="Bicicleta">
+                     </div>
+                     <div class="dates">
+                        <img id="nov9" src="images/9nov.png" alt="9 noviembre">
+                        <img id="nov16" src="images/16nov.png" alt="16 noviembre">
+                        <img id="nov19" src="images/19nov.png" alt="19 noviembre">
+                        <img id="nov26" src="images/26nov.png" alt="26 noviembre">
+                        <img id="dic3" src="images/3dic.png" alt="3 diciembre">
+                        <img id="dic10" src="images/10dic.png" alt="10 diciembre">
+                        <img id="dic17" src="images/17dic.png" alt="17 diciembre">
+                        <img id="dic24" src="images/24dic.png" alt="24 diciembre">
+                        <img id="dic31" src="images/31dic.png" alt="31 diciembre">
+                        <img id="ene8" src="images/08ene.png" alt="8 enero">
+                        <img id="ene14" src="images/14ene.png" alt="14 enero">
+                        <img id="ene18" src="images/18ene.png" alt="18 enero">
+                        <img id="ene21" src="images/21ene.png" alt="21 enero">
+                     </div>
+                     <img id="finish" src="images/finish.png" alt="Meta Misión Oro">
+                  </div>
+               </div>
+               <!-- Right block -->
             </div>
-            <div class="text-right tiras">
-              <img src="images/tira10.png" alt="Mensaje 10">
+            <!-- First row -->
+         </div>
+      </div>
+      <!-- Video section -->
+      <!-- Footer -->
+      <footer class="footer py-2 bg-light shadow-sm rounded">
+         <div class="container text-center">
+            <div class="my-3">
+               <a href="docs/politica.pdf" target="_blank" title="Política de uso de datos." class="">Política de uso de datos.</a>
             </div>
-            <h4 class="h2">Nuevo año, nuevos objetivos por cumplir ¿Estás preparado?</h4>
-            <p>Equipo, después de hacer una parada estratégica con la llegada de un nuevo año, es momento de inflar las llantas de la bici, llenar la caramañola y ponerse la pinta bicicletera para recibir enero pedaleando con toda. Sí señoras y señores del Team Misión Oro, entramos en una nueva, y no cualquier etapa… ya estamos listos para la contrarreloj en equipos. El tiempo lo es todo en esta etapa, por eso, debemos estar sincronizados mental y físicamente para entregar los pedalazos extras que significarán la victoria que tanto hemos buscado durante toda la Misión Oro. Enero será un mes lleno de retos, donde estaremos afinando nuestras habilidades de ruta y estaremos trabajando en:</p>
-            <ul>
-              <li>Capacitaciones a usuarios finales de compras y finanzas</li>
-              <li>Capacitaciones de funcionalidades críticas de la Compañía</li>
-              <li>Finalización de pruebas unitarias</li>
-              <li>Preparación para pruebas integrales</li>
-              <li>Preparación del cierre de SIESA para migrar la información y tener el sistema JDE funcionando</li>
-            </ul>
-            <p>Esperamos que la  llegada de un nuevo año signifique un nuevo aliento para enfrentar los retos y propósitos que nos depara el 2019 en la ruta hacia el éxito. ¿Preparados?, ¿listos?... sigamos con el impulso, y vamos por el triunfo que nos pertenece.</p>
-            <blockquote class="blockquote text-center">
-              <p class="mb-0">"El entrenamiento debe de ser sistemático, es decir, meticuloso, regular y organizado"</p>
-              <footer class="blockquote-footer"><cite title="Source Title">Connie Carpenter</cite></footer>
-            </blockquote>
-          </div>
-      </div>
-    </div>
-    <!-- Video #10 -->
-    <!-- Video #11 -->
-    <div id="video11">
-      <div class="d-sm-block d-md-none text-center">
-        <h3>Undecima etapa: <b>14 de enero</b></h3>
-        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-      </div>
-    <div class="videos11">
-        <div class="video-content">
-          <div class="d-none d-md-block">
-            <img class="shirt" src="images/shirt3.png" alt="Camiseta Continental Gold" />
-          </div>
-          <div class="text-right tiras">
-            <img src="images/tira11.png" alt="Mensaje 11">
-          </div>
-          <h4 class="h2">¡Vamos equipo, la gloria es nuestra!</h4>
-          <p>Han sido semanas muy intensas y en algunos de nosotros ya se evidencia la fatiga, ¡pero ya vemos la meta cerca! Pronto todo nuestro esfuerzo será recompensado cuando culminemos la Misión Oro y comencemos otro nuevo reto, que con toda seguridad alcanzaremos con éxito.</p>
-          <p>Equipo, estamos haciendo historia en Continental Gold, demostrando de qué estamos hechos y el orgullo que nos produce este proyecto.</p>
-          <p>Esta semana tenemos una nueva etapa donde realizaremos las siguientes actividades: </p>
-          <ul>
-            <li>Ejecución de las pruebas integrales para revisar el sistema en procesos de negocio completos: desde la planeación financiera, las compras hasta el pago, desde el registro hasta los reportes (finanzas), nómina y desde la adquisición del activo hasta su bajo.</li>
-            <li>Ajustes requeridos sobre los errores identificados durante las pruebas integrales.</li>
-            <li>Continuar con la carga de saldos y datos en ambientes productivos.</li>
-            <li>Continuar con las capacitaciones a los usuarios finales (finanzas, compras e inventarios), capacitaciones a la mesa de servicio sobre los incidentes de JDE y finalizar las capacitaciones de masa: Cotejos, Compras y Factura Directa.</li>
-            <li>Continuar con en el fortalecimiento del modelo de soporte para la salida en vivo del sistema de información y el esquema de seguridad de JDE.</li>
-            <li>Preparar el cierre contable y financiero de enero, el cual será anticipado con el fin de validar las bases de datos que se cargarán en JDE.  Comunicar adecuadamente a los proveedores, aliados y a la organización en general para que ajusten sus actividades y procesos de acuerdo con las fechas establecidas.</li>
-          </ul>
-          <p>Coequiperos, durante esta misión su trabajo ha sido fundamental para alcanzar los resultados y aprender muchas enseñanzas que nos ha dejado este proceso. Hoy no solo somos un equipo más fuerte, también, con cada pedalazo, hemos crecido como profesionales y seres humanos. Cada día, como los grandes ciclistas, nos hemos superado. Un ejemplo perfecto de constancia y determinación es Santiago Botero, gloria del ciclismo colombiano quien, especialmente para ustedes, les tiene este mensaje:</p>
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" width="320" height="auto" controls>
-              <source src="videos/mision-oro-1.mp4" />
-            </video>
-          </div>
-        </div>
-    </div>
-  </div>
-  <!-- Video #11 -->
-  <!-- Video #12 -->
-  <div id="video12">
-    <div class="d-sm-block d-md-none text-center">
-      <h3>Doceava etapa: <b>18 de enero</b></h3>
-      <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
-    </div>
-  <div class="videos12">
-      <div class="video-content">
-        <div class="d-none d-md-block">
-          <img class="shirt" src="images/shirt4.png" alt="Camiseta Continental Gold" />
-        </div>
-        <div class="text-right tiras">
-          <img src="images/tira12.png" alt="Mensaje 12">
-        </div>
-        <h4 class="h2">“No son los golpes ni las caídas las que hacen fracasar al hombre; sino su falta de voluntad para levantarse y seguir adelante."</h4>
-        <p>En el ciclismo cualquier participante está propenso a caerse. Pero si hay algo que llena sus triunfos de gran satisfacción es poder superar las adversidades. Hoy ustedes, integrantes del equipo Misión Oro nos han enseñado cómo levantarse, trabajar duro y como equipo empezar a ganar etapas. Al estar próximos a la meta, podrán probar la gloria y recordarán esos episodios de adversidad como un aprendizaje de oro para los próximos retos.</p>
-        <p>La resiliencia es la capacidad de los seres humanos para adaptarse positivamente a situaciones adversas y hoy Santiago Botero nos cuenta su ejemplo de cómo el ser resiliente fue trascendental en muchos momentos de su carrera como ciclista, en los que a pesar de enfrentarse a momentos duros, la pujanza y las ganas de salir adelante lo impulsaron para lograr el éxito.</p>
-        <div class="text-center">
-          <p><b><em>¡Sigan adelante!, pronto harán historia en la compañía...</em></b></p>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-          <video class="embed-responsive-item" width="320" height="auto" controls>
-            <source src="videos/mision-oro-2.mp4" />
-          </video>
-        </div>
-        <h5 class="text-left mt-4">Grandes cambios con JDE</h5>
-        <div class="embed-responsive embed-responsive-16by9">
-          <video class="embed-responsive-item" width="320" height="auto" controls>
-            <source src="videos/capsula-jd-1.mp4" />
-          </video>
-        </div>
-      </div>
-  </div>
-</div>
-<!-- Video #12 -->
-        </div>
-          <!-- Left block -->
-          <!-- Right block -->
-          <div class="col-5 d-none d-md-block text-center">
-            <div class="road">
-              <img class="d-none d-xl-block" src="images/road.png" height="100.7%" >
-              <img class="d-none d-lg-block d-xl-none" src="images/road-lg.png" style="height: 100.5%; padding-bottom: 30px;">
-              <img class="d-none d-md-block d-lg-none" src="images/road-md.png" height="61%">
-              <img class="d-none d-md-block d-lg-none" src="images/road-md2.png" style="top: 60.5%; left: 28px; height: 6050px;">
-              <div class="cicla">
-                <img src="images/guy.png" alt="Bicicleta">
-              </div>
-              <div class="dates">
-                <img id="nov9" src="images/9nov.png" alt="9 noviembre">
-                <img id="nov16" src="images/16nov.png" alt="16 noviembre">
-                <img id="nov19" src="images/19nov.png" alt="19 noviembre">
-                <img id="nov26" src="images/26nov.png" alt="26 noviembre">
-                <img id="dic3" src="images/3dic.png" alt="3 diciembre">
-                <img id="dic10" src="images/10dic.png" alt="10 diciembre">
-                <img id="dic17" src="images/17dic.png" alt="17 diciembre">
-                <img id="dic24" src="images/24dic.png" alt="24 diciembre">
-                <img id="dic31" src="images/31dic.png" alt="31 diciembre">
-                <img id="ene8" src="images/08ene.png" alt="8 enero">
-                <img id="ene14" src="images/14ene.png" alt="14 enero">
-                <img id="ene18" src="images/18ene.png" alt="18 enero">
-              </div>
-              <img id="finish" src="images/finish.png" alt="Meta Misión Oro">
-            </div>
-          </div>
-          <!-- Right block -->
-        </div>
-        <!-- First row -->
-      </div>
-    </div>
-    <!-- Video section -->
-    <!-- Footer -->
-    <footer class="footer py-2 bg-light shadow-sm rounded">
-      <div class="container text-center">
-        <div class="my-3">
-          <a href="docs/politica.pdf" target="_blank" title="Política de uso de datos." class="">Política de uso de datos.</a>
-        </div>
-      </div>
-    </footer>
-    <!-- Footer -->
-
-    <script type="text/javascript">
-      // Reset img cache
-      var version = '?v=9'
-      var imgElements = document.getElementsByTagName('img');
-      for (var i = 0; i < imgElements.length; i++) {
-        imgElements[i].src += version;
-      }
-    </script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>-->
-    <script src="js/main.js?v=9.3"></script>
-  </body>
+         </div>
+      </footer>
+      <!-- Footer -->
+      <script type="text/javascript">
+         // Reset img cache
+         var version = '?v=9'
+         var imgElements = document.getElementsByTagName('img');
+         for (var i = 0; i < imgElements.length; i++) {
+           imgElements[i].src += version;
+         }
+      </script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>-->
+      <script src="js/main.js?v=9.4"></script>
+   </body>
 </html>
