@@ -104,7 +104,7 @@ a{
 /* Video section */
 .video-section{
   height: auto;
-  padding-bottom: 80px;
+  padding-bottom: 100px; /* Change this */
 }
 .tiras{
   margin-right: -6%!important;
@@ -155,6 +155,9 @@ a{
 }
 #video13 .shirt{
   bottom: 94%;
+}
+#video14 .shirt{
+  bottom: 93%;
 }
 .video-content{
   background-color: hsla(0,0%,100%,.8);
@@ -285,6 +288,13 @@ a{
 #video13{
   transform: translateY(65px);
 }
+.videos14{
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+#video14{
+  transform: translateY(90px);
+}
 .video-section .lead{
   line-height: 0px;
   margin-left: 1em;
@@ -297,6 +307,7 @@ a{
 }
 .cicla{
   padding-right: 4%;
+  z-index: 50;
 }
 /* Road img */
 .road > img{
@@ -310,45 +321,49 @@ a{
   position: absolute;
   width: 50px;
   right: 63%;
+  z-index: 48;
 }
 #nov9{
   bottom: 96.6%;
 }
 #nov16{
-  bottom: 92.8%;
+  bottom: 93.8%;
 }
 #nov19{
-  bottom: 85.7%;
+  bottom: 87.7%;
 }
 #nov26{
-  bottom: 76.5%;
+  bottom: 79.3%;
 }
 #dic3{
-  bottom: 68%;
+  bottom: 71.8%;
 }
 #dic10{
-  bottom: 59.1%;
+  bottom: 64.1%;
 }
 #dic17{
-  bottom: 53.6%;
+  bottom: 58.6%;
 }
 #dic24{
-  bottom: 47.3%;
+  bottom: 53%;
 }
 #dic31{
-  bottom: 38.7%;
+  bottom: 45.5%;
 }
 #ene8{
-  bottom: 34.7%;
+  bottom: 40.9%;
 }
 #ene14{
-  bottom: 28%;
+  bottom: 36%;
 }
 #ene18{
-  bottom: 17.4%;
+  bottom: 26.7%;
 }
 #ene21{
-  bottom: 10%;
+  bottom: 18.4%;
+}
+#ene23{
+  bottom: 7.7%;
 }
 /* Finish flag */
 #finish{
@@ -356,6 +371,7 @@ a{
   width: 20%;
   left: 34%;
   bottom: -0.2%;
+  z-index: 49;
 }
 /* Scroll object */
 #section10 a {
@@ -585,6 +601,9 @@ a{
   #video13{
     transform: translateY(490px);
   }
+  #video14{
+    transform: translateY(650px);
+  }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -652,40 +671,43 @@ a{
     bottom: 97.7%;
   }
   #nov16{
-    bottom: 93%;
+    bottom: 94%;
   }
   #nov19{
-    bottom: 86%;
+    bottom: 87.8%;
   }
   #nov26{
-    bottom: 77%;
+    bottom: 79%;
   }
   #dic3{
-    bottom: 69.6%;
+    bottom: 72%;
   }
   #dic10{
-    bottom: 61.3%;
+    bottom: 64.3%;
   }
   #dic17{
-    bottom: 54.5%;
+    bottom: 58.5%;
   }
   #dic24{
-    bottom: 46.7%;
+    bottom: 51.7%;
   }
   #dic31{
-    bottom: 37.4%;
+    bottom: 43.2%;
   }
   #ene8{
-    bottom: 32.7%;
+    bottom: 38.7%;
   }
   #ene14{
-    bottom: 25.8%;
+    bottom: 32.8%;
   }
   #ene18{
-    bottom: 15.6%;
+    bottom: 23%;
   }
   #ene21{
-    bottom: 9.5%;
+    bottom: 15.9%;
+  }
+  #ene23{
+    bottom: 6.3%;
   }
   /* Finish flag */
   #finish{
@@ -728,6 +750,15 @@ a{
   #video11 .shirt{
     bottom: 94.4%;
   }
+  #video12 .shirt{
+    bottom: 93.3%;
+  }
+  #video13 .shirt{
+    bottom: 95%;
+  }
+  #video14 .shirt{
+    bottom: 94%;
+  }
   /* Road */
   .road > img{
     right: 11%;
@@ -740,40 +771,43 @@ a{
     bottom: 97.4%;
   }
   #nov16{
-    bottom: 93%;
+    bottom: 93.8%;
   }
   #nov19{
-    bottom: 86.3%;
+    bottom: 87.5%;
   }
   #nov26{
-    bottom: 76.7%;
+    bottom: 79%;
   }
   #dic3{
-    bottom: 68.8%;
+    bottom: 71.8%;
   }
   #dic10{
-    bottom: 59.8%;
+    bottom: 63.8%;
   }
   #dic17{
-    bottom: 53.6%;
+    bottom: 58%;
   }
   #dic24{
-    bottom: 46.6%;
+    bottom: 51.9%;
   }
   #dic31{
-    bottom: 37.9%;
+    bottom: 44%;
   }
   #ene8{
-    bottom: 33.2%;
+    bottom: 40%;
   }
   #ene14{
-    bottom: 26.8%;
+    bottom: 34.5%;
   }
   #ene18{
-    bottom: 16.7%;
+    bottom: 24.7%;
   }
   #ene21{
-    bottom: 9.5%;
+    bottom: 16.8%;
+  }
+  #ene23{
+    bottom: 6.8%;
   }
   /* Finish flag */
   #finish{
