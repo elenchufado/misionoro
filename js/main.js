@@ -141,6 +141,16 @@ $(document).ready(function () {
                           //.addIndicators({name: "Video"})
                           .addTo(controller);
 
+                          // init video15
+                            //build
+                            var video15 = new ScrollMagic.Scene({
+                              triggerElement: ".videos15",
+                              triggerHook: 0.58
+                            })
+                            .setClassToggle(".videos15", 'videos-appear-normalized')//add class
+                            //.addIndicators({name: "Video"})
+                            .addTo(controller);
+
     // Responsive duration bycicle
     var $window = $(window);
     function checkingWidht() {
