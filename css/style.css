@@ -36,6 +36,16 @@ a{
 .display-4 {
   font-size: 2.8rem;
 }
+.carousel-control-next, .carousel-control-prev{
+  width: 7.5%;
+  background-color: #ee9800;
+}
+.carousel-control-prev{
+  left: -40px;
+}
+.carousel-control-next{
+  right: -40px;
+}
 /* Navbar redes */
 .redes  a  img{
   width: 40px;

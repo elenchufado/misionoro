@@ -13,7 +13,7 @@
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Style -->
-      <link href="css/style.min.css?v=1" rel="stylesheet">
+      <link href="css/style.min.css?v=1.2" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -745,12 +745,39 @@
                                  <source src="videos/mision-oro-6.mp4" />
                               </video>
                             </div>
-                            <h5 class="text-left mt-4">Estos son los grandes cambios con JDE</h5>
-                            <div class="embed-responsive embed-responsive-16by9">
-                               <video class="embed-responsive-item" width="320" height="auto" controls>
-                                  <source src="videos/capsula-jd-5.mp4" />
-                               </video>
+                            <div id="carousel" class="carousel slide mt-4" data-ride="carousel" data-interval="false">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <div class="d-block">
+                                    <h5 class="text-left">Grandes cambios con JDE #5</h5>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                       <video class="embed-responsive-item" width="320" height="auto" controls>
+                                          <source src="videos/capsula-jd-5.mp4" />
+                                       </video>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="d-block">
+                                    <h5 class="text-left">Grandes cambios con JDE #6</h5>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                       <video class="embed-responsive-item" width="320" height="auto" controls>
+                                          <source src="videos/capsula-jd-6.mp4" />
+                                       </video>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                              </a>
                             </div>
+
                             <div class="text-center mt-4">
                               <button class="btn color-white" id="startConfetti" target="_blank" role="button">¡A CELEBRAR!</button>
                             </div>
