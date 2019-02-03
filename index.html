@@ -13,7 +13,7 @@
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Style -->
-      <link href="css/style.css?v=9.5" rel="stylesheet">
+      <link href="css/style.min.css?v=1.2" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -680,7 +680,7 @@
                               <img class="shirt" src="images/shirt1.png" alt="Camiseta Continental Gold" />
                            </div>
                            <div class="text-right tiras">
-                              <img src="images/tira15.png" alt="Mensaje 14">
+                              <img src="images/tira15.png" alt="Mensaje 15">
                            </div>
                            <h4 class="h2">¡A punto de llegar a la meta!</h4>
                             <p>Estamos a contados pedalazos de cruzar la línea de meta, a punto de hacer historia en Continental Gold.  ¡Vamos campeones! Pronto sentirán la satisfacción del triunfo, será lo más gratificante y seguro una gran enseñanza que les dejará para sus vidas esta experiencia porque ustedes saben que dieron lo mejor de sí mismos.</p>
@@ -712,6 +712,82 @@
                      </div>
                   </div>
                   <!-- Video #15 -->
+                  <!-- Video final -->
+                  <div id="videoFinal">
+                     <div class="d-sm-block d-md-none text-center">
+                        <h3>Etapa final: <b>4 de febrero</b></h3>
+                        <img src="images/arrow.png" alt="scroll" width="20%" style="padding-top:30px; margin-bottom:-120px">
+                     </div>
+                     <div class="videosFinal">
+                        <div class="video-content">
+                           <div class="d-none d-md-block">
+                              <img class="shirt" src="images/shirt2.png" alt="Camiseta Continental Gold" />
+                           </div>
+                           <div class="text-right tiras">
+                              <img src="images/tira16.png" alt="Mensaje 16">
+                           </div>
+                           <h4 class="h2">¡Felicitaciones equipo, el esfuerzo valió la pena!</h4>
+                            <p>Lo lograron y tienen que sentirse muy orgullosos. Gracias por cada pedalazo, por levantarse cuando cayeron, por enseñarnos el verdadero compromiso. Hoy, como lo prometieron, cruzaron la línea de meta y con la frente muy en alto.</p>
+                            <p>Reciban un fuerte abrazo de todos sus compañeros y directivos de la Compañía.</p>
+                            <p>Ustedes son parte del proceso de cambio de nuestra Compañía y con su aporte nos acercamos más a convertirnos en la primera mina de oro subterránea, a gran escala más grande del país.</p>
+                            <p>Después de un gran esfuerzo culminamos esta carrera exitosamente, pero recuerden que vendrán otras carreras igual de importantes, otros logros que alcanzar.</p>
+                            <p>Al haber alcanzado nuestra meta y haber salido adelante con JDE, viene una etapa de estabilización donde el foco principal será:</p>
+                            <ul>
+                             <li>Soporte a los usuarios finales de JDE.</li>
+                             <li>Atención de incidentes que resulten y sean reportados por los usuarios.</li>
+                            </ul>
+                            <p>¡Sigamos adelante juntos!, aquí estamos todos en Continental para trabajar en equipo en esta nueva etapa.</p>
+                            <div class="text-center">
+                              <p><b><em>¡GRACIAS!</em></b></p>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <video class="embed-responsive-item" width="320" height="auto" controls>
+                                 <source src="videos/mision-oro-6.mp4" />
+                              </video>
+                            </div>
+                            <div id="carousel" class="carousel slide mt-4" data-ride="carousel" data-interval="false">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <div class="d-block">
+                                    <h5 class="text-left">Grandes cambios con JDE #5</h5>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                       <video class="embed-responsive-item" width="320" height="auto" controls>
+                                          <source src="videos/capsula-jd-5.mp4" />
+                                       </video>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="d-block">
+                                    <h5 class="text-left">Grandes cambios con JDE #6</h5>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                       <video class="embed-responsive-item" width="320" height="auto" controls>
+                                          <source src="videos/capsula-jd-6.mp4" />
+                                       </video>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                              </a>
+                            </div>
+
+                            <div class="text-center mt-4">
+                              <button class="btn color-white" id="startConfetti" target="_blank" role="button">¡A CELEBRAR!</button>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Video final -->
+                  <!-- Confetti canvas -->
+                  <canvas id="confettiCanvas" style="position:fixed;top:0;left:0;display:none;z-index:1;pointer-events:none;" width="1366" height="664"></canvas>
+                  <!-- Confetti canvas -->
                </div>
                <!-- Left block -->
                <!-- Right block -->
@@ -720,7 +796,7 @@
                      <img class="d-none d-xl-block" src="images/road.png" height="100.7%" >
                      <img class="d-none d-lg-block d-xl-none" src="images/road-lg.png" style="height: 100.8%; padding-bottom: 30px;">
                      <img class="d-none d-md-block d-lg-none" src="images/road-md.png" height="61%" style="z-index: 46;">
-                     <img class="d-none d-md-block d-lg-none" src="images/road-md2.png" style="top: 60.9%; left: 27px; height: 7800px; z-index: 44;">
+                     <img class="d-none d-md-block d-lg-none" src="images/road-md2.png" style="top: 60.9%; left: 27px; height: 8600px; z-index: 44;">
                      <div class="cicla">
                         <img src="images/guy.png" alt="Bicicleta">
                      </div>
@@ -773,6 +849,7 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
       <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>-->
-      <script src="js/main.js?v=9.6"></script>
+      <script src="js/main.min.js?v=1"></script>
+      <script src="js/jquery.confetti.js"></script>
    </body>
 </html>
